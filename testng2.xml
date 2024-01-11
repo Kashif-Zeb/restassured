@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+        <listener class-name="com.medelz.utilities.Listeners"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+
+	 <class name="com.medelz.testCases.AUTH_pre_registeration_data_validation"/>
+	<class name="com.medelz.testCases.PREREGIS_pre_registration_otp"/>
+	<class name="com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification"/>
+	<class name="com.medelz.testCases.AUTH_user_registeration"/>
+
+<!-- <class name="com.medelz.testCases.AUTH_user_login"/>
+  <class name="com.medelz.testCases.HOME_landing_page"/>-->  
+  
+ <!-- <class name="com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email"/>
+            <class name="com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request"/>
+            <class name="com.medelz.testCases.FORGOTTENPASSWORD_update_password"/> -->    
+            
+            
+            
+           <!--   <class name="com.medelz.testCases.UPDATEEMAIL_verify__old_email"/>
+            <class name="com.medelz.testCases.UPDATEEMAIL_verify_otp"/>
+            <class name="com.medelz.testCases.UPDATEEMAIL_update_email"/>
+            <class name="com.medelz.testCases.UPDATEEMAIL_verify_email"/>-->    
+            
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

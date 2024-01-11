@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmployeesRestAPISuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="checkserverType"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="getAllEmployees"/>
+          <include name="checkContentLenght"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
+      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkserverType"/>
+          <include name="setup"/>
+          <include name="getEmployeeData"/>
+          <include name="checkContentType"/>
+          <include name="checkResposeBody"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="checkResposeBody"/>
+          <include name="checkserverType"/>
+          <include name="checkstatusLine"/>
+          <include name="deleteEmployee"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="checkserverType"/>
+          <include name="setup"/>
+          <include name="checkcontentEncoding"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="createEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
+        <methods>
+          <include name="checkcontentEncoding"/>
+          <include name="checkserverType"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="updateEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->
