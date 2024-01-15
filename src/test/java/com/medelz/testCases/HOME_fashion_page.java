@@ -19,7 +19,7 @@ public class HOME_fashion_page extends TestBase{
 	@BeforeClass
 	void fashionpage() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started fashion_page **********");
 		
 	RestAssured.baseURI = "https://dev.medelz.com/wp-json";

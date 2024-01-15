@@ -26,7 +26,7 @@ public class USERDETAILS_featured_users extends TestBase{
 	@BeforeClass
 	void featured_users() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started featured_users **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

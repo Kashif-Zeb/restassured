@@ -25,14 +25,14 @@ public class HOME_upload_file extends TestBase{
 	@BeforeClass
 	void upload_file() throws InterruptedException
 	{
-	
+	Thread.sleep(10000);
 	logger.info("*********Started upload_file **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();
-	requestParams.put("banner_attachment_id", 0); // Cast
-	requestParams.put("banner_aws_key", "https:\\/\\/medelz-dev-media.s3.us-west-1.amazonaws.com\\/wp-content\\/uploads\\/Demo-video-2-1686153111.jpg");
+	requestParams.put("banner_attachment_id", 26400); // Cast
+	requestParams.put("banner_aws_key", "");
 	requestParams.put("banner_file_size", "333");
 	requestParams.put("banner_height", "333");
 	requestParams.put("banner_width", "333");

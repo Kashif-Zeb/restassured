@@ -19,7 +19,7 @@ public class HOME_dance_page extends TestBase{
 	@BeforeClass
 	void dancepage() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started dance_page **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

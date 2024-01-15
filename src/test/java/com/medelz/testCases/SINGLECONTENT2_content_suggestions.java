@@ -25,13 +25,13 @@ public class SINGLECONTENT2_content_suggestions extends TestBase{
 	@BeforeClass
 	void content_suggestions() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started content_suggestions **********");
 		
 	RestAssured.baseURI =TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();
-	requestParams.put("content_id",fid); // Cast
+	requestParams.put("content_id",24175); // Cast
 	requestParams.put("page", 1);
 	requestParams.put("perPage", 10);
 

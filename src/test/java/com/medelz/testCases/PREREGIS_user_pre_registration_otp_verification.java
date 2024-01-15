@@ -24,7 +24,7 @@ public class PREREGIS_user_pre_registration_otp_verification extends TestBase{
 	@BeforeClass
 	void user_pre_registration_otp_verification() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started user_pre_registration_otp_verification **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;

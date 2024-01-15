@@ -24,7 +24,7 @@ public class SINGLECONTENT2_add_feedback extends TestBase{
 	@BeforeClass
 	void add_feedback() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started add_feedback **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;

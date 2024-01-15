@@ -25,7 +25,7 @@ public class SINGLECONTENT2_add_content_to_favourite_list2 extends TestBase{
 	@BeforeClass
 	void add_content_to_favourite_list() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started add_content_to_favourite_list **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

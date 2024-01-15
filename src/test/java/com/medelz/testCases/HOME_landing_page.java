@@ -19,7 +19,7 @@ public class HOME_landing_page extends TestBase{
 	@BeforeClass
 	void landing_page() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started landingpage **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

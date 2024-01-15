@@ -29,7 +29,7 @@ public class SINGLECONTENT2_add_comment extends TestBase{
 	@BeforeClass
 	void add_comment() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started add_comment **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;

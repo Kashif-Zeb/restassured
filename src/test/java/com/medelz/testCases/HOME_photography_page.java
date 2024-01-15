@@ -19,7 +19,7 @@ public class HOME_photography_page extends TestBase{
 	@BeforeClass
 	void photographypage() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started photography_page **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

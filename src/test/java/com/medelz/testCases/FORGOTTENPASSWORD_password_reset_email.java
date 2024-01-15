@@ -20,12 +20,12 @@ import io.restassured.specification.RequestSpecification;
 public class FORGOTTENPASSWORD_password_reset_email extends TestBase{
 
 	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
+	String emaill = readFromFile("newemail.txt");
 	
 	@BeforeClass
 	void password_reset_email() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started password_reset_email **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

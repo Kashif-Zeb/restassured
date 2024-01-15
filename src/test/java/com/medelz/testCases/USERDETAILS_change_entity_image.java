@@ -26,7 +26,7 @@ public class USERDETAILS_change_entity_image extends TestBase{
 	@BeforeClass
 	void change_entity_image() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started change_entity_image **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

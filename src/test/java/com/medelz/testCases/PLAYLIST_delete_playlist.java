@@ -26,7 +26,7 @@ public class PLAYLIST_delete_playlist extends TestBase{
 	@BeforeClass
 	void delete_playlist() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started delete_playlist **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

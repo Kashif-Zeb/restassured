@@ -19,7 +19,7 @@ public class HOME_film_page extends TestBase{
 	@BeforeClass
 	void filmpage() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started film_page **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

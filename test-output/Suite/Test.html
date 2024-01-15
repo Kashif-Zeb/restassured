@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>236/33/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 11 23:57:25 PKT 2024</td>
+<td>Started on:</td><td>Mon Jan 15 09:54:24 PKT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>153 seconds (153924 ms)</td>
+<tr><td>Total time:</td><td>278 seconds (278594 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,54 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.tearDown()'><b>tearDown</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.path.json.JsonPath.get(String)&quot; is null
+	at com.medelz.testCases.ALBUM_create_album.albumid(ALBUM_create_album.java:135)
+	at com.medelz.testCases.ALBUM_create_album.tearDown(ALBUM_create_album.java:154)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1342373353", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1342373353'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.path.json.JsonPath.get(String)&quot; is null
+	at com.medelz.testCases.ALBUM_create_album.albumid(ALBUM_create_album.java:135)
+	at com.medelz.testCases.ALBUM_create_album.tearDown(ALBUM_create_album.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,12 +124,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_pre_registeration_data_validation.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.AUTH_pre_registeration_data_validation</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_delete_comment.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_delete_comment</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.medelz.testCases.AUTH_pre_registeration_data_validation.checkResposeBody(AUTH_pre_registeration_data_validation.java:69)
+	at com.medelz.testCases.SINGLECONTENT2_delete_comment.checkResposeBody(SINGLECONTENT2_delete_comment.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace818010696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace818010696'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1958462067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1958462067'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -89,7 +137,7 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:1066)
 	at org.testng.Assert.assertEquals(Assert.java:1030)
 	at org.testng.Assert.assertEquals(Assert.java:1076)
-	at com.medelz.testCases.AUTH_pre_registeration_data_validation.checkResposeBody(AUTH_pre_registeration_data_validation.java:69)
+	at com.medelz.testCases.SINGLECONTENT2_delete_comment.checkResposeBody(SINGLECONTENT2_delete_comment.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -120,7 +168,1476 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_delete_comment@3e27ba32</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_add_single_content.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT_add_single_content</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.SINGLECONTENT_add_single_content.checkResposeBody(SINGLECONTENT_add_single_content.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace206091587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace206091587'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.SINGLECONTENT_add_single_content.checkResposeBody(SINGLECONTENT_add_single_content.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_add_single_content@2eae8e6e</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_add_to_album.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_add_to_album</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_add_to_album.checkResposeBody(ALBUM_add_to_album.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace751605377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751605377'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_add_to_album.checkResposeBody(ALBUM_add_to_album.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_add_to_album@25ce9dc4</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_add_to_album.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_add_to_album</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.ALBUM_add_to_album.checkStatusCode(ALBUM_add_to_album.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1251686742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251686742'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.ALBUM_add_to_album.checkStatusCode(ALBUM_add_to_album.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_add_to_album@25ce9dc4</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_entity_image.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_change_entity_image</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.USERDETAILS_change_entity_image.checkStatusCode(USERDETAILS_change_entity_image.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2050791921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050791921'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.USERDETAILS_change_entity_image.checkStatusCode(USERDETAILS_change_entity_image.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_entity_image@1ca3b418</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkStatusCode(FORGOTTENPASSWORD_otp_confirmation_request.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace347377465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace347377465'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkStatusCode(FORGOTTENPASSWORD_otp_confirmation_request.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@795509d9</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_update_playlist.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PLAYLIST_update_playlist</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.PLAYLIST_update_playlist.checkResposeBody(PLAYLIST_update_playlist.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace687608114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace687608114'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.PLAYLIST_update_playlist.checkResposeBody(PLAYLIST_update_playlist.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_update_playlist@15bb5034</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_update_album.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_update_album</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.ALBUM_update_album.checkStatusCode(ALBUM_update_album.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace37427881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace37427881'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.ALBUM_update_album.checkStatusCode(ALBUM_update_album.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_update_album@69e153c5</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_entity_image.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_change_entity_image</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.USERDETAILS_change_entity_image.checkResposeBody(USERDETAILS_change_entity_image.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace724270652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace724270652'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.USERDETAILS_change_entity_image.checkResposeBody(USERDETAILS_change_entity_image.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_entity_image@1ca3b418</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkResposeBody(FORGOTTENPASSWORD_otp_confirmation_request.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9698116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9698116'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkResposeBody(FORGOTTENPASSWORD_otp_confirmation_request.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@795509d9</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_update_comment.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_update_comment</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.SINGLECONTENT2_update_comment.checkResposeBody(SINGLECONTENT2_update_comment.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1264243462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1264243462'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.SINGLECONTENT2_update_comment.checkResposeBody(SINGLECONTENT2_update_comment.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_update_comment@2af004b</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_update_password</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkStatusCode(FORGOTTENPASSWORD_update_password.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1887701594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1887701594'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkStatusCode(FORGOTTENPASSWORD_update_password.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_update_password@53045c6c</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_add_single_content.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT_add_single_content</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.SINGLECONTENT_add_single_content.checkStatusCode(SINGLECONTENT_add_single_content.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1179830093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1179830093'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.SINGLECONTENT_add_single_content.checkStatusCode(SINGLECONTENT_add_single_content.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_add_single_content@2eae8e6e</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_content.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_get_album_content</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_get_album_content.checkResposeBody(ALBUM_get_album_content.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651727123", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651727123'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_get_album_content.checkResposeBody(ALBUM_get_album_content.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_content@74ea2410</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_edit_single_content</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkResposeBody(SINGLECONTENT2_edit_single_content.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace280395604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280395604'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkResposeBody(SINGLECONTENT2_edit_single_content.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_edit_single_content@563f38c4</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_edit_single_content</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkStatusCode(SINGLECONTENT2_edit_single_content.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1163764792", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1163764792'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkStatusCode(SINGLECONTENT2_edit_single_content.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_edit_single_content@563f38c4</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_private_user_details.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_private_user_details</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.USERDETAILS_private_user_details.checkResponseTime(USERDETAILS_private_user_details.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace209901861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace209901861'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.medelz.testCases.USERDETAILS_private_user_details.checkResponseTime(USERDETAILS_private_user_details.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_private_user_details@3b0fe47a</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_update_playlist.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PLAYLIST_update_playlist</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.PLAYLIST_update_playlist.checkStatusCode(PLAYLIST_update_playlist.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace541330540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace541330540'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.PLAYLIST_update_playlist.checkStatusCode(PLAYLIST_update_playlist.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_update_playlist@15bb5034</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_delete_playlist.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PLAYLIST_delete_playlist</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.PLAYLIST_delete_playlist.checkStatusCode(PLAYLIST_delete_playlist.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855297340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855297340'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.PLAYLIST_delete_playlist.checkStatusCode(PLAYLIST_delete_playlist.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_delete_playlist@8f2ef19</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.ALBUM_create_album.checkStatusCode(ALBUM_create_album.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1114375302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1114375302'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.ALBUM_create_album.checkStatusCode(ALBUM_create_album.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_update_album.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_update_album</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_update_album.checkResposeBody(ALBUM_update_album.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1076580225", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1076580225'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_update_album.checkResposeBody(ALBUM_update_album.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_update_album@69e153c5</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_update_comment.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_update_comment</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.SINGLECONTENT2_update_comment.checkStatusCode(SINGLECONTENT2_update_comment.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1218734863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1218734863'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.SINGLECONTENT2_update_comment.checkStatusCode(SINGLECONTENT2_update_comment.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_update_comment@2af004b</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT_delete_content_entity</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkResposeBody(SINGLECONTENT_delete_content_entity.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1360125564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1360125564'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkResposeBody(SINGLECONTENT_delete_content_entity.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_delete_content_entity@4b741d6d</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_from_album.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_delete_from_album</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_delete_from_album.checkResposeBody(ALBUM_delete_from_album.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2015210611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2015210611'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_delete_from_album.checkResposeBody(ALBUM_delete_from_album.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_from_album@173ed316</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_album.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_delete_album</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.ALBUM_delete_album.checkStatusCode(ALBUM_delete_album.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1568043544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1568043544'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.ALBUM_delete_album.checkStatusCode(ALBUM_delete_album.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_album@76b1e9b8</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_album.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_delete_album</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_delete_album.checkResposeBody(ALBUM_delete_album.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1388602164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1388602164'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_delete_album.checkResposeBody(ALBUM_delete_album.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_album@76b1e9b8</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_update_password</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkResposeBody(FORGOTTENPASSWORD_update_password.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1696377390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1696377390'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkResposeBody(FORGOTTENPASSWORD_update_password.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_update_password@53045c6c</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_get_playlist_song.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PLAYLIST_get_playlist_song</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.PLAYLIST_get_playlist_song.checkResposeBody(PLAYLIST_get_playlist_song.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1215208733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1215208733'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.PLAYLIST_get_playlist_song.checkResposeBody(PLAYLIST_get_playlist_song.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_get_playlist_song@6e9175d8</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_delete_playlist.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PLAYLIST_delete_playlist</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.PLAYLIST_delete_playlist.checkResposeBody(PLAYLIST_delete_playlist.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2027499247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2027499247'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.PLAYLIST_delete_playlist.checkResposeBody(PLAYLIST_delete_playlist.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_delete_playlist@8f2ef19</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT_delete_content_entity</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkStatusCode(SINGLECONTENT_delete_content_entity.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1379222018", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1379222018'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkStatusCode(SINGLECONTENT_delete_content_entity.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_delete_content_entity@4b741d6d</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_from_album.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_delete_from_album</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.ALBUM_delete_from_album.checkStatusCode(ALBUM_delete_from_album.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1583850640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1583850640'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.ALBUM_delete_from_album.checkStatusCode(ALBUM_delete_from_album.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_from_album@173ed316</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medelz.testCases.ALBUM_create_album.checkResposeBody(ALBUM_create_album.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1525320084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1525320084'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.medelz.testCases.ALBUM_create_album.checkResposeBody(ALBUM_create_album.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_delete_comment.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_delete_comment</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [422]
+	at com.medelz.testCases.SINGLECONTENT2_delete_comment.checkStatusCode(SINGLECONTENT2_delete_comment.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294632176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace294632176'><pre>java.lang.AssertionError: expected [200] but found [422]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.medelz.testCases.SINGLECONTENT2_delete_comment.checkStatusCode(SINGLECONTENT2_delete_comment.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_delete_comment@3e27ba32</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -131,100 +1648,1185 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_pre_registeration_data_validation.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.AUTH_pre_registeration_data_validation</td>
+<td title='com.medelz.testCases.MEDELZCONTENT_my_content_medelz.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.MEDELZCONTENT_my_content_medelz</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae</td></tr>
+<td>com.medelz.testCases.MEDELZCONTENT_my_content_medelz@470734c3</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_user_registeration.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.AUTH_user_registeration</td>
+<td title='com.medelz.testCases.AUTH_user_login.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.AUTH_user_login</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_user_registeration@537f60bf</td></tr>
+<td>com.medelz.testCases.AUTH_user_login@f0c8a99</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_pre_registeration_data_validation.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.AUTH_pre_registeration_data_validation</td>
+<td title='com.medelz.testCases.USERDETAILS_update_password.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_update_password</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae</td></tr>
+<td>com.medelz.testCases.USERDETAILS_update_password@75d3a5e0</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification</td>
+<td title='com.medelz.testCases.LOCATIONS_get_countries.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.LOCATIONS_get_countries</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c</td></tr>
+<td>com.medelz.testCases.LOCATIONS_get_countries@2cf3d63b</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_pre_registration_otp.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PREREGIS_pre_registration_otp</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@5d0bf09b</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_user_registeration.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.AUTH_user_registeration</td>
+<td title='com.medelz.testCases.HOME_landing_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_landing_page</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_user_registeration@537f60bf</td></tr>
+<td>com.medelz.testCases.HOME_landing_page@11392934</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_pre_registeration_data_validation.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.AUTH_pre_registeration_data_validation</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_single_content.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_single_content</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_single_content@54422e18</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification</td>
+<td title='com.medelz.testCases.LOCATIONS_get_countries.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.LOCATIONS_get_countries</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c</td></tr>
+<td>com.medelz.testCases.LOCATIONS_get_countries@2cf3d63b</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_user_registeration.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.AUTH_user_registeration</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_content_suggestions.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_content_suggestions</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_user_registeration@537f60bf</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_content_suggestions@543295b0</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_pre_registration_otp.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PREREGIS_pre_registration_otp</td>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39</td></tr>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@19e4653c</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_user_registeration.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.AUTH_user_registeration</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_get_comment.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_get_comment</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_user_registeration@537f60bf</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_get_comment@248e319b</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_pre_registration_otp.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PREREGIS_pre_registration_otp</td>
+<td title='com.medelz.testCases.AUTH_user_login.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.AUTH_user_login</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39</td></tr>
+<td>com.medelz.testCases.AUTH_user_login@f0c8a99</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_pre_registration_otp.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PREREGIS_pre_registration_otp</td>
+<td title='com.medelz.testCases.HOME_fashion_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_fashion_page</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39</td></tr>
+<td>com.medelz.testCases.HOME_fashion_page@2e8c1c9b</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_update_comment.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_update_comment</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_update_comment@2af004b</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification</td>
+<td title='com.medelz.testCases.HOME_landing_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_landing_page</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c</td></tr>
+<td>com.medelz.testCases.HOME_landing_page@11392934</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_user_registeration.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.AUTH_user_registeration</td>
+<td title='com.medelz.testCases.HOME_painting_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_painting_page</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_user_registeration@537f60bf</td></tr>
+<td>com.medelz.testCases.HOME_painting_page@449a4f23</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_pre_registration_otp.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PREREGIS_pre_registration_otp</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_favourite_list.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_favourite_list</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_favourite_list@793f29ff</td></tr>
 <tr>
-<td title='com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification</td>
+<td title='com.medelz.testCases.USERDETAILS_private_user_details.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_private_user_details</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c</td></tr>
+<td>com.medelz.testCases.USERDETAILS_private_user_details@3b0fe47a</td></tr>
 <tr>
-<td title='com.medelz.testCases.AUTH_pre_registeration_data_validation.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.AUTH_pre_registeration_data_validation</td>
+<td title='com.medelz.testCases.SINGLECONTENT2_favourite_list.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_favourite_list</td>
 <td></td>
 <td>0</td>
-<td>com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae</td></tr>
+<td>com.medelz.testCases.SINGLECONTENT2_favourite_list@793f29ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_feedback.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_feedback</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_feedback@117159c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_public_playlist_song.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PLAYLIST_public_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_public_playlist_song@7d0b7e3c</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_delete_comment.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_delete_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_delete_comment@3e27ba32</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_delete_comment.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_delete_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_delete_comment@3e27ba32</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_edit_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_edit_single_content@563f38c4</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_public_user_details.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_public_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_public_user_details@202b0582</td></tr>
+<tr>
+<td title='com.medelz.testCases.MEDELZCONTENT_my_content_medelz.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.MEDELZCONTENT_my_content_medelz</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.MEDELZCONTENT_my_content_medelz@470734c3</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_otp.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_otp</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_otp@74e28667</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page_api_v2.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_landing_page_api_v2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page_api_v2@5b1669c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@5d0bf09b</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_music_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_music_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_music_page@6e6f2380</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_list_of_followed_users.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_list_of_followed_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_list_of_followed_users@2034b64c</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_album.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_delete_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_album@76b1e9b8</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@19e4653c</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_film_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_film_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_film_page@53fe15ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_list_of_followed_users.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_list_of_followed_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_list_of_followed_users@2034b64c</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_update_password.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_update_password@75d3a5e0</td></tr>
+<tr>
+<td title='com.medelz.testCases.LOCATIONS_get_countries.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.LOCATIONS_get_countries</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.LOCATIONS_get_countries@2cf3d63b</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_dance_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_dance_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_dance_page@76a4ebf2</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page_api_v2.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_landing_page_api_v2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page_api_v2@5b1669c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_film_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_film_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_film_page@53fe15ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_content.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_get_album_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_content@74ea2410</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_email.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_email@663c9e7a</td></tr>
+<tr>
+<td title='com.medelz.testCases.AUTH_user_login.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.AUTH_user_login</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.AUTH_user_login@f0c8a99</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_public_user_details.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_public_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_public_user_details@202b0582</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_upload_file.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_upload_file</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_upload_file@2a265ea9</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page_api_v2.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_landing_page_api_v2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page_api_v2@5b1669c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_delete_playlist.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PLAYLIST_delete_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_delete_playlist@8f2ef19</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_all_artist_queried.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_all_artist_queried</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_all_artist_queried@235ecd9f</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_followed_user.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_followed_user</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_followed_user@74d1dc36</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@3e8c3cb</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@5d0bf09b</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_album.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_delete_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_album@76b1e9b8</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_otp.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_otp</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_otp@74e28667</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@3e8c3cb</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_and_playlist.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_get_album_and_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_and_playlist@17f62e33</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_content_suggestions.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_content_suggestions</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_content_suggestions@543295b0</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_feedback.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_feedback</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_feedback@117159c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_trending_categories_content.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_trending_categories_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_trending_categories_content@6892b3b6</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_update_password@53045c6c</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_and_playlist.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.ALBUM_get_album_and_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_and_playlist@17f62e33</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_private_user_details.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_private_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_private_user_details@3b0fe47a</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify__old_email.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify__old_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify__old_email@7161d8d1</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_edit_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_edit_single_content@563f38c4</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_dance_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_dance_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_dance_page@76a4ebf2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_followed_user.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_followed_user</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_followed_user@74d1dc36</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_trending_categories_content.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_trending_categories_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_trending_categories_content@6892b3b6</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_user_details.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_change_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_user_details@7ef82753</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify__old_email.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify__old_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify__old_email@7161d8d1</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_otp.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_otp</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_otp@74e28667</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT_delete_content_entity</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_delete_content_entity@4b741d6d</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT_delete_content_entity</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_delete_content_entity@4b741d6d</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_list_of_followed_users.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_list_of_followed_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_list_of_followed_users@2034b64c</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_add_to_album.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_add_to_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_add_to_album@25ce9dc4</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_single_content.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_single_content@54422e18</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_add_single_content.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT_add_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_add_single_content@2eae8e6e</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_entity_image.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_change_entity_image</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_entity_image@1ca3b418</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_private_user_details.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_private_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_private_user_details@3b0fe47a</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_music_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_music_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_music_page@6e6f2380</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@3e8c3cb</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@3e8c3cb</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_painting_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_painting_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_painting_page@449a4f23</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_followed_user.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_followed_user</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_followed_user@74d1dc36</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_add_to_album.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_add_to_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_add_to_album@25ce9dc4</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_upload_file.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_upload_file</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_upload_file@2a265ea9</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_get_comment.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_get_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_get_comment@248e319b</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_update_album.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_update_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_update_album@69e153c5</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_upload_file.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_upload_file</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_upload_file@2a265ea9</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_dance_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_dance_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_dance_page@76a4ebf2</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_comment.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_comment@27406a17</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_fashion_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_fashion_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_fashion_page@2e8c1c9b</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_comment.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_comment@27406a17</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_feedback.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_feedback</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_feedback@117159c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_update_playlist.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PLAYLIST_update_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_update_playlist@15bb5034</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_user_details.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_change_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_user_details@7ef82753</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_landing_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page@11392934</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_add_to_album.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_add_to_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_add_to_album@25ce9dc4</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_public_user_details.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_public_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_public_user_details@202b0582</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_single_content.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_single_content@54422e18</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_all_artist_queried.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_all_artist_queried</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_all_artist_queried@235ecd9f</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_favourite_list.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_favourite_list@793f29ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_update_password.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_update_password@75d3a5e0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_painting_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_painting_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_painting_page@449a4f23</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_entity_image.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_change_entity_image</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_entity_image@1ca3b418</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_update_password.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_update_password@75d3a5e0</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_favourite_list.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_favourite_list@793f29ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_fashion_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_fashion_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_fashion_page@2e8c1c9b</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_film_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_film_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_film_page@53fe15ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_content_suggestions.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_content_suggestions</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_content_suggestions@543295b0</td></tr>
+<tr>
+<td title='com.medelz.testCases.MEDELZCONTENT_my_content_medelz.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.MEDELZCONTENT_my_content_medelz</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.MEDELZCONTENT_my_content_medelz@470734c3</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_create_playlist.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PLAYLIST_create_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_create_playlist@78e4deb0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_photography_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_photography_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_photography_page@1530c739</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_email.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_email@663c9e7a</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_album.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_delete_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_album@76b1e9b8</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_update_comment.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_update_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_update_comment@2af004b</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_content_suggestions.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_content_suggestions</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_content_suggestions@543295b0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_landing_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page@11392934</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_upload_file.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_upload_file</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_upload_file@2a265ea9</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_content.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_get_album_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_content@74ea2410</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@5d0bf09b</td></tr>
+<tr>
+<td title='com.medelz.testCases.MEDELZCONTENT_my_content_medelz.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.MEDELZCONTENT_my_content_medelz</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.MEDELZCONTENT_my_content_medelz@470734c3</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_feedback.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_feedback</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_feedback@117159c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_create_playlist.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PLAYLIST_create_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_create_playlist@78e4deb0</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_from_album.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_delete_from_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_from_album@173ed316</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_update_comment.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_update_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_update_comment@2af004b</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_delete_playlist.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PLAYLIST_delete_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_delete_playlist@8f2ef19</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_landing_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page@11392934</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@19e4653c</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_fashion_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_fashion_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_fashion_page@2e8c1c9b</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_get_playlist_song.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PLAYLIST_get_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_get_playlist_song@6e9175d8</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_create_playlist.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PLAYLIST_create_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_create_playlist@78e4deb0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_create_playlist.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PLAYLIST_create_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_create_playlist@78e4deb0</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@3e8c3cb</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_otp.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_otp</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_otp@74e28667</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@795509d9</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_painting_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_painting_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_painting_page@449a4f23</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_single_content.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_single_content@54422e18</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_update_album.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.ALBUM_update_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_update_album@69e153c5</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@19e4653c</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_update_email.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_update_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_update_email@1cf6d1be</td></tr>
+<tr>
+<td title='com.medelz.testCases.MEDELZCONTENT_my_content_medelz.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.MEDELZCONTENT_my_content_medelz</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.MEDELZCONTENT_my_content_medelz@470734c3</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_favourite_list.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_favourite_list@793f29ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_featured_users.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_featured_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_featured_users@58cbafc2</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_add_single_content.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT_add_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_add_single_content@2eae8e6e</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_update_email.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_update_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_update_email@1cf6d1be</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@795509d9</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_public_user_details.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_public_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_public_user_details@202b0582</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_get_comment.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_get_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_get_comment@248e319b</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page_api_v2.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_landing_page_api_v2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page_api_v2@5b1669c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.AUTH_user_login.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.AUTH_user_login</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.AUTH_user_login@f0c8a99</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_featured_users.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_featured_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_featured_users@58cbafc2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_user_details.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_change_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_user_details@7ef82753</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_trending_categories_content.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_trending_categories_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_trending_categories_content@6892b3b6</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_email.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_email@663c9e7a</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_get_comment.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_get_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_get_comment@248e319b</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_update_album.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_update_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_update_album@69e153c5</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_add_single_content.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT_add_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_add_single_content@2eae8e6e</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_trending_categories_content.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_trending_categories_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_trending_categories_content@6892b3b6</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_music_page.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.HOME_music_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_music_page@6e6f2380</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_feedback.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_feedback</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_feedback@117159c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_film_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_film_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_film_page@53fe15ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_and_playlist.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_get_album_and_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_and_playlist@17f62e33</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_content_suggestions.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_content_suggestions</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_content_suggestions@543295b0</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_and_playlist.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_get_album_and_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_and_playlist@17f62e33</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_painting_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_painting_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_painting_page@449a4f23</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_fashion_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_fashion_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_fashion_page@2e8c1c9b</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_edit_single_content.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_edit_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_edit_single_content@563f38c4</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_all_artist_queried.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_all_artist_queried</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_all_artist_queried@235ecd9f</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_photography_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_photography_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_photography_page@1530c739</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_public_playlist_song.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.PLAYLIST_public_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_public_playlist_song@7d0b7e3c</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_comment.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_comment@27406a17</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_list_of_followed_users.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_list_of_followed_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_list_of_followed_users@2034b64c</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_update_playlist.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PLAYLIST_update_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_update_playlist@15bb5034</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT_delete_content_entity.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT_delete_content_entity</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT_delete_content_entity@4b741d6d</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@795509d9</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify__old_email.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify__old_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify__old_email@7161d8d1</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_public_playlist_song.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PLAYLIST_public_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_public_playlist_song@7d0b7e3c</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_public_user_details.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_public_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_public_user_details@202b0582</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_photography_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_photography_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_photography_page@1530c739</td></tr>
+<tr>
+<td title='com.medelz.testCases.LOCATIONS_get_countries.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.LOCATIONS_get_countries</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.LOCATIONS_get_countries@2cf3d63b</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_create_playlist.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PLAYLIST_create_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_create_playlist@78e4deb0</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_get_playlist_song.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PLAYLIST_get_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_get_playlist_song@6e9175d8</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_update_playlist.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.PLAYLIST_update_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_update_playlist@15bb5034</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_private_user_details.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_private_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_private_user_details@3b0fe47a</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_photography_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_photography_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_photography_page@1530c739</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_update_password@53045c6c</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_email.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_email@663c9e7a</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_landing_page_api_v2.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_landing_page_api_v2</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_landing_page_api_v2@5b1669c0</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_film_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_film_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_film_page@53fe15ff</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_delete_playlist.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PLAYLIST_delete_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_delete_playlist@8f2ef19</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_from_album.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_delete_from_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_from_album@173ed316</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_update_password.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_update_password@53045c6c</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_dance_page.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.HOME_dance_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_dance_page@76a4ebf2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_update_password.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_update_password</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_update_password@75d3a5e0</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_delete_from_album.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_delete_from_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_delete_from_album@173ed316</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_user_details.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_change_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_user_details@7ef82753</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@5d0bf09b</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_photography_page.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_photography_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_photography_page@1530c739</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_music_page.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.HOME_music_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_music_page@6e6f2380</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_music_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_music_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_music_page@6e6f2380</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_update_email.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_update_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_update_email@1cf6d1be</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_list_of_followed_users.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_list_of_followed_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_list_of_followed_users@2034b64c</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_upload_file.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_upload_file</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_upload_file@2a265ea9</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_dance_page.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.HOME_dance_page</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_dance_page@76a4ebf2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_all_artist_queried.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_all_artist_queried</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_all_artist_queried@235ecd9f</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_featured_users.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_featured_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_featured_users@58cbafc2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_user_details.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_change_user_details</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_user_details@7ef82753</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_email.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_email@663c9e7a</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_featured_users.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.USERDETAILS_featured_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_featured_users@58cbafc2</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_featured_users.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.USERDETAILS_featured_users</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_featured_users@58cbafc2</td></tr>
+<tr>
+<td title='com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@19e4653c</td></tr>
+<tr>
+<td title='com.medelz.testCases.LOCATIONS_get_countries.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.LOCATIONS_get_countries</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.LOCATIONS_get_countries@2cf3d63b</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_update_email.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_update_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_update_email@1cf6d1be</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_content.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.ALBUM_get_album_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_content@74ea2410</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_comment.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_comment@27406a17</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_public_playlist_song.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PLAYLIST_public_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_public_playlist_song@7d0b7e3c</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify__old_email.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify__old_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify__old_email@7161d8d1</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_public_playlist_song.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.PLAYLIST_public_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_public_playlist_song@7d0b7e3c</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_content.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_get_album_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_content@74ea2410</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_get_playlist_song.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.PLAYLIST_get_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_get_playlist_song@6e9175d8</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_get_album_and_playlist.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.ALBUM_get_album_and_playlist</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_get_album_and_playlist@17f62e33</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_followed_user.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.medelz.testCases.USERDETAILS_followed_user</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_followed_user@74d1dc36</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_followed_user.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.USERDETAILS_followed_user</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_followed_user@74d1dc36</td></tr>
+<tr>
+<td title='com.medelz.testCases.HOME_trending_categories_content.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.HOME_trending_categories_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.HOME_trending_categories_content@6892b3b6</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_get_comment.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_get_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_get_comment@248e319b</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_delete_comment.checkserverType()'><b>checkserverType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_delete_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_delete_comment@3e27ba32</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_update_email.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_update_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_update_email@1cf6d1be</td></tr>
+<tr>
+<td title='com.medelz.testCases.PLAYLIST_get_playlist_song.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.PLAYLIST_get_playlist_song</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.PLAYLIST_get_playlist_song@6e9175d8</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify_otp.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify_otp</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify_otp@74e28667</td></tr>
+<tr>
+<td title='com.medelz.testCases.ALBUM_create_album.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.ALBUM_create_album</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.ALBUM_create_album@7674f035</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_add_comment.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_add_comment</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_add_comment@27406a17</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_all_artist_queried.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_all_artist_queried</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_all_artist_queried@235ecd9f</td></tr>
+<tr>
+<td title='com.medelz.testCases.UPDATEEMAIL_verify__old_email.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.UPDATEEMAIL_verify__old_email</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.UPDATEEMAIL_verify__old_email@7161d8d1</td></tr>
+<tr>
+<td title='com.medelz.testCases.USERDETAILS_change_entity_image.checkContentType()'><b>checkContentType</b><br>Test class: com.medelz.testCases.USERDETAILS_change_entity_image</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.USERDETAILS_change_entity_image@1ca3b418</td></tr>
+<tr>
+<td title='com.medelz.testCases.SINGLECONTENT2_single_content.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.medelz.testCases.SINGLECONTENT2_single_content</td>
+<td></td>
+<td>0</td>
+<td>com.medelz.testCases.SINGLECONTENT2_single_content@54422e18</td></tr>
 </table><p>
 </body>
 </html>

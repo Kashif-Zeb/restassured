@@ -23,7 +23,7 @@ public class USERDETAILS_followed_user extends TestBase{
 	@BeforeClass
 	void followed_user() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started followed_user **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

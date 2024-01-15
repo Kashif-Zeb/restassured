@@ -28,7 +28,7 @@ public class SINGLECONTENT2_update_comment extends TestBase{
 	@BeforeClass
 	void update_comment() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started update_comment **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

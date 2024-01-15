@@ -19,7 +19,7 @@ public class HOME_painting_page extends TestBase{
 	@BeforeClass
 	void paintingpage() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started painting_page **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

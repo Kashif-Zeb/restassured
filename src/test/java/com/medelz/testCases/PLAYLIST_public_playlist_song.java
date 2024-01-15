@@ -23,7 +23,7 @@ public class PLAYLIST_public_playlist_song extends TestBase{
 	@BeforeClass
 	void public_playlist_song() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started public_playlist_song **********");
 		System.out.println(acid);
 	RestAssured.baseURI = TestBase.baseURI;

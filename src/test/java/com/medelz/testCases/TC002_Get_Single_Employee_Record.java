@@ -34,7 +34,7 @@ public class TC002_Get_Single_Employee_Record extends TestBase{
 	void getEmployeeData() throws InterruptedException
 	{
 		logger.info("*********Started TC002_Get_Single_Employee_Record **********");
-		
+		Thread.sleep(10000);
 		RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1";
 		httpRequest = RestAssured.given();
 		response = httpRequest.request(Method.GET, "/employee/"+empID);

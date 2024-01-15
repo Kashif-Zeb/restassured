@@ -27,7 +27,7 @@ public class UPDATEEMAIL_update_email extends TestBase{
 	@BeforeClass
 	void update_email() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started update_email **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

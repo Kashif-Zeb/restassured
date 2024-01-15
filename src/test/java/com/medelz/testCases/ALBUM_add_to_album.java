@@ -30,7 +30,7 @@ public class ALBUM_add_to_album extends TestBase{
 	{
 	
 	logger.info("*********Started add_to_album **********");
-		
+	Thread.sleep(10000);
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

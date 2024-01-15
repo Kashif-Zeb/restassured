@@ -19,7 +19,7 @@ public class USERDETAILS_private_user_details extends TestBase{
 	@BeforeClass
 	void private_user_details() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started private_user_details **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

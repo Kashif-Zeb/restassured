@@ -24,7 +24,7 @@ public class SINGLECONTENT_public_song extends TestBase{
 	@BeforeClass
 	void public_song() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started public_song **********");
 	System.out.println(aid);
 	RestAssured.baseURI = TestBase.baseURI;

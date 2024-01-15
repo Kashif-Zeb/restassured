@@ -26,7 +26,7 @@ public class ALBUM_delete_album extends TestBase{
 	@BeforeClass
 	void delete_album() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started delete_album **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

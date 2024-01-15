@@ -23,7 +23,7 @@ public class SINGLECONTENT_delete_content_entity extends TestBase{
 	@BeforeClass
 	void delete_content_entity() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started delete_content_entity **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

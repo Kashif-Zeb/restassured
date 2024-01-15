@@ -23,7 +23,7 @@ public class LOCATIONS_get_countries extends TestBase{
 	@BeforeClass
 	void get_playlist_song() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started get_countries **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

@@ -23,7 +23,7 @@ public class ALBUM_get_album_and_playlist extends TestBase{
 	@BeforeClass
 	void get_album_and_playlist() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started get_album_and_playlist **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

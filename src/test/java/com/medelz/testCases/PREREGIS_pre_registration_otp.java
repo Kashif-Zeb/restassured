@@ -26,7 +26,7 @@ public class PREREGIS_pre_registration_otp extends TestBase {
 	@BeforeClass
 	void pre_registration_otp() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started pre_registration_otp **********");
 	
 	

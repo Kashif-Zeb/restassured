@@ -23,7 +23,7 @@ public class MEDELZCONTENT_my_content_medelz extends TestBase{
 	@BeforeClass
 	void my_content_medelz() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started my_content_medelz **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

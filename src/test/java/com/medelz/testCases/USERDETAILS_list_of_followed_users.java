@@ -25,7 +25,7 @@ public class USERDETAILS_list_of_followed_users extends TestBase{
 	@BeforeClass
 	void list_of_followed_users() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started list_of_followed_users **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

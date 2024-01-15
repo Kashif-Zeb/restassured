@@ -19,7 +19,7 @@ public class HOME_trending_categories_content extends TestBase{
 	@BeforeClass
 	void getAllEmployees() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started trending_categories_content **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

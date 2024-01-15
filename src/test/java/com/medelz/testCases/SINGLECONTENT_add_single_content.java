@@ -25,7 +25,7 @@ public class SINGLECONTENT_add_single_content extends TestBase{
 	@BeforeClass
 	void add_single_content() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started add_single_conten **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

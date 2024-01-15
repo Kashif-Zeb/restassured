@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.medelz.testCases.AUTH_user_registeration">
+      <class name="com.medelz.testCases.AUTH_user_login">
         <methods>
           <include name="checkStatusCode"/>
           <include name="tearDown"/>
           <include name="checkResposeBody"/>
-          <include name="user_registeration"/>
+          <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.medelz.testCases.AUTH_user_registeration -->
+      </class> <!-- com.medelz.testCases.AUTH_user_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

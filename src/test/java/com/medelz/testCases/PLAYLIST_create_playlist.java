@@ -26,7 +26,7 @@ public class PLAYLIST_create_playlist extends TestBase{
 	@BeforeClass
 	void create_playlist() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started create_playlist **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

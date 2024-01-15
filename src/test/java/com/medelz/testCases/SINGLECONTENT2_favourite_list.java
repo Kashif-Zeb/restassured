@@ -23,7 +23,7 @@ public class SINGLECONTENT2_favourite_list extends TestBase{
 	@BeforeClass
 	void favourite_list() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started favourite_list **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

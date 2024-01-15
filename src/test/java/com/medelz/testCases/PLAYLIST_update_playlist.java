@@ -25,7 +25,7 @@ public class PLAYLIST_update_playlist extends TestBase{
 	@BeforeClass
 	void update_playlist() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started update_playlist **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

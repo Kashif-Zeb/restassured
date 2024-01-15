@@ -25,7 +25,7 @@ public class SINGLECONTENT2_single_content extends TestBase{
 	@BeforeClass
 	void single_content() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started single_content **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

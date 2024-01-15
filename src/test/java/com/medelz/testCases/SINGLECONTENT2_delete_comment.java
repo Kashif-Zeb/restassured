@@ -26,7 +26,7 @@ public class SINGLECONTENT2_delete_comment extends TestBase{
 	@BeforeClass
 	void delete_comment() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started delete_comment **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;

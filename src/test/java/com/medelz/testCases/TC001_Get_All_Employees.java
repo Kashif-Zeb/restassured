@@ -32,7 +32,7 @@ public class TC001_Get_All_Employees extends TestBase{
 	@BeforeClass
 	void getAllEmployees() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started TC001_Get_All_Employees **********");
 		
 	RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1";

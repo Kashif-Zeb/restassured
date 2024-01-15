@@ -26,7 +26,7 @@ public class ALBUM_get_album_content extends TestBase{
 	@BeforeClass
 	void get_album_content() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started get_album_content **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

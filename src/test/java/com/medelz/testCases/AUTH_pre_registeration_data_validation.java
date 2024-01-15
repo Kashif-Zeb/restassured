@@ -25,7 +25,7 @@ public class AUTH_pre_registeration_data_validation extends TestBase{
 	@BeforeClass
 	void pre_registeration_data_validation() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started pre_registeration_data_validation **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;;
@@ -33,11 +33,11 @@ public class AUTH_pre_registeration_data_validation extends TestBase{
 	JSONObject requestParams = new JSONObject();
 	requestParams.put("firstName", "aziz"); // Cast
 	requestParams.put("lastName", "khan");
-	requestParams.put("email", "aziz@yopmail.com");
+	requestParams.put("email", "amir@yopmail.com");
 	requestParams.put("password", "Envy15gold@");
 	requestParams.put("role", "artist");
 	requestParams.put("country_code", "+1");
-	requestParams.put("phoneNumber", "+12016883846");
+	requestParams.put("phoneNumber", "+14239228450");
 	requestParams.put("dob", "1980/01/01");
 	requestParams.put("gender", "male");
 
@@ -64,9 +64,9 @@ public class AUTH_pre_registeration_data_validation extends TestBase{
 		
 		String responseBody = response.getBody().asString();
 		logger.info("Response Body==>"+responseBody);
-		Assert.assertEquals(responseBody.contains("aziz@yopmail.com"), true);
+		Assert.assertEquals(responseBody.contains("amir@yopmail.com"), true);
 		Assert.assertEquals(responseBody.contains("Envy15gold@"), true);
-		Assert.assertEquals(responseBody.contains("+12016883846"), true);
+		Assert.assertEquals(responseBody.contains("+14239228450"), true);
 		Assert.assertEquals(responseBody.contains("aziz"), true);
 		Assert.assertEquals(responseBody.contains("User data is validated!."), true);
 		Assert.assertTrue(responseBody!=null);

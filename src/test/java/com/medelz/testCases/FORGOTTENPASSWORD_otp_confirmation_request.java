@@ -26,7 +26,7 @@ public class FORGOTTENPASSWORD_otp_confirmation_request extends TestBase{
 	@BeforeClass
 	void otp_confirmation_request() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started otp_confirmation_request **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

@@ -28,7 +28,7 @@ public class ALBUM_create_album extends TestBase{
 	@BeforeClass
 	void create_album() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started create_album **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

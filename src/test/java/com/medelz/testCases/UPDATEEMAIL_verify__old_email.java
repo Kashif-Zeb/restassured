@@ -27,7 +27,7 @@ public class UPDATEEMAIL_verify__old_email extends TestBase{
 	@BeforeClass
 	void verify__old_email() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started verify__old_email **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

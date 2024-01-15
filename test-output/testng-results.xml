@@ -1,192 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T23:57:25 PKT" name="Suite" finished-at="2024-01-11T23:59:59 PKT" duration-ms="153924">
+  <suite started-at="2024-01-15T10:20:18 PKT" name="Default suite" finished-at="2024-01-15T10:20:34 PKT" duration-ms="16040">
     <groups>
     </groups>
-    <test started-at="2024-01-11T23:57:25 PKT" name="Test" finished-at="2024-01-11T23:59:59 PKT" duration-ms="153924">
-      <class name="com.medelz.testCases.PREREGIS_pre_registration_otp">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:31 PKT" name="setup" finished-at="2024-01-11T23:57:31 PKT" duration-ms="2" status="PASS">
+    <test started-at="2024-01-15T10:20:18 PKT" name="Default test" finished-at="2024-01-15T10:20:34 PKT" duration-ms="16040">
+      <class name="com.medelz.testCases.HOME_landing_page_api_v2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:18 PKT" name="setup" finished-at="2024-01-15T10:20:18 PKT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pre_registration_otp()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:31 PKT" name="pre_registration_otp" finished-at="2024-01-11T23:57:34 PKT" duration-ms="3569" status="PASS">
+        <test-method is-config="true" signature="landingpage_v2()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:18 PKT" name="landingpage_v2" finished-at="2024-01-15T10:20:33 PKT" duration-ms="15746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pre_registration_otp -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="checkContentType" finished-at="2024-01-11T23:57:34 PKT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="checkResponseTime" finished-at="2024-01-11T23:57:34 PKT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="checkResposeBody" finished-at="2024-01-11T23:57:34 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="checkStatusCode" finished-at="2024-01-11T23:57:34 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="checkserverType" finished-at="2024-01-11T23:57:34 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PREREGIS_pre_registration_otp@25641d39]" started-at="2024-01-11T23:57:34 PKT" name="tearDown" finished-at="2024-01-11T23:57:34 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.PREREGIS_pre_registration_otp -->
-      <class name="com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:57:34 PKT" name="setup" finished-at="2024-01-11T23:57:34 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="user_pre_registration_otp_verification()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:57:34 PKT" name="user_pre_registration_otp_verification" finished-at="2024-01-11T23:59:55 PKT" duration-ms="141029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_pre_registration_otp_verification -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="checkContentType" finished-at="2024-01-11T23:59:55 PKT" duration-ms="4" status="PASS">
+        </test-method> <!-- landingpage_v2 -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:33 PKT" name="checkContentType" finished-at="2024-01-15T10:20:33 PKT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="checkResponseTime" finished-at="2024-01-11T23:59:55 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:33 PKT" name="checkResponseTime" finished-at="2024-01-15T10:20:33 PKT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="checkResposeBody" finished-at="2024-01-11T23:59:55 PKT" duration-ms="4" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:33 PKT" name="checkResposeBody" finished-at="2024-01-15T10:20:34 PKT" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="checkStatusCode" finished-at="2024-01-11T23:59:55 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:34 PKT" name="checkStatusCode" finished-at="2024-01-15T10:20:34 PKT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="checkserverType" finished-at="2024-01-11T23:59:55 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:34 PKT" name="checkserverType" finished-at="2024-01-15T10:20:34 PKT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification@7b36aa0c]" started-at="2024-01-11T23:59:55 PKT" name="tearDown" finished-at="2024-01-11T23:59:55 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@73e9cf30]" started-at="2024-01-15T10:20:34 PKT" name="tearDown" finished-at="2024-01-15T10:20:34 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.PREREGIS_user_pre_registration_otp_verification -->
-      <class name="com.medelz.testCases.AUTH_user_registeration">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:55 PKT" name="setup" finished-at="2024-01-11T23:59:55 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="user_registeration()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:55 PKT" name="user_registeration" finished-at="2024-01-11T23:59:59 PKT" duration-ms="3525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_registeration -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="checkContentType" finished-at="2024-01-11T23:59:59 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="checkResponseTime" finished-at="2024-01-11T23:59:59 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="checkResposeBody" finished-at="2024-01-11T23:59:59 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="checkStatusCode" finished-at="2024-01-11T23:59:59 PKT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="checkserverType" finished-at="2024-01-11T23:59:59 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.AUTH_user_registeration@537f60bf]" started-at="2024-01-11T23:59:59 PKT" name="tearDown" finished-at="2024-01-11T23:59:59 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.AUTH_user_registeration -->
-      <class name="com.medelz.testCases.AUTH_pre_registeration_data_validation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:25 PKT" name="setup" finished-at="2024-01-11T23:57:25 PKT" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pre_registeration_data_validation()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:25 PKT" name="pre_registeration_data_validation" finished-at="2024-01-11T23:57:30 PKT" duration-ms="4758" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pre_registeration_data_validation -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="checkContentType" finished-at="2024-01-11T23:57:30 PKT" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="checkResponseTime" finished-at="2024-01-11T23:57:30 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="checkResposeBody" finished-at="2024-01-11T23:57:30 PKT" duration-ms="32" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1066)
-at org.testng.Assert.assertEquals(Assert.java:1030)
-at org.testng.Assert.assertEquals(Assert.java:1076)
-at com.medelz.testCases.AUTH_pre_registeration_data_validation.checkResposeBody(AUTH_pre_registeration_data_validation.java:69)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="checkStatusCode" finished-at="2024-01-11T23:57:30 PKT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="checkserverType" finished-at="2024-01-11T23:57:30 PKT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.AUTH_pre_registeration_data_validation@4d5650ae]" started-at="2024-01-11T23:57:30 PKT" name="tearDown" finished-at="2024-01-11T23:57:31 PKT" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.AUTH_pre_registeration_data_validation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.medelz.testCases.HOME_landing_page_api_v2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

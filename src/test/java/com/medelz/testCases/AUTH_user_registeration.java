@@ -27,7 +27,7 @@ public class AUTH_user_registeration extends TestBase{
 	@BeforeClass
 	void user_registeration() throws InterruptedException
 	{
-	
+	Thread.sleep(10000);
 	logger.info("*********Started user_registeration **********");
 	System.out.println(number + " " + emaill + " " + passwordd + " " + usernamee + " " + name);
 

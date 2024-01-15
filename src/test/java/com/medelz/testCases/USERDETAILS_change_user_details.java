@@ -23,7 +23,7 @@ public class USERDETAILS_change_user_details extends TestBase{
 	@BeforeClass
 	void change_user_details() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started change_user_details **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

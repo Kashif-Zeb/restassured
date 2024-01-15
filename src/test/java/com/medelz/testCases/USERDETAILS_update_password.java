@@ -24,7 +24,7 @@ public class USERDETAILS_update_password extends TestBase{
 	@BeforeClass
 	void update_password() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started update_password **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;

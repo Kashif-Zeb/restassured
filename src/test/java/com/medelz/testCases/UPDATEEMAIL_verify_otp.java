@@ -27,7 +27,7 @@ public class UPDATEEMAIL_verify_otp extends TestBase{
 	@BeforeClass
 	void verify_otp() throws InterruptedException
 	{
-	
+		Thread.sleep(10000);
 	logger.info("*********Started verify_otp **********");
 		
 	RestAssured.baseURI = TestBase.baseURI;
