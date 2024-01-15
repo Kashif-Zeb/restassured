@@ -1,6 +1,9 @@
 
 package com.medelz.testCases;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,9 +21,24 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class SINGLECONTENT2_update_comment extends TestBase{
+	
+	public static String readFromFileee(String fileName) {
+        StringBuilder content = new StringBuilder();
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName))) {
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                content.append(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String abc = content.toString();
+        return abc;
+    }
+	
 	String gettoken = readFromFile("token.txt");
 	String fileid = readFromFile("fileid.txt");
-	String commentid = readFromFile("commentid.txt");
+	String commentid = readFromFileee("commentid.txt");
 	int fid=Integer.parseInt(fileid);
 	int cmid=Integer.parseInt(commentid);
 	
@@ -28,9 +46,12 @@ public class SINGLECONTENT2_update_comment extends TestBase{
 	@BeforeClass
 	void update_comment() throws InterruptedException
 	{
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 	logger.info("*********Started update_comment **********");
-		
+	String commentid = readFromFileee("commentid.txt");
+	int fid=Integer.parseInt(fileid);
+	int cmid=Integer.parseInt(commentid);
+		System.out.println(commentid);
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

@@ -122,6 +122,7 @@ public class SINGLECONTENT2_add_comment extends TestBase{
 		    int id = jsonPath.get("comment_data.comment_id");
 		    try (FileWriter emailFile = new FileWriter("commentid.txt")) {
 	            emailFile.write(Integer.toString(id));
+	            emailFile.close();
 	            System.out.println("commentid written to commentid.txt");
 	        } catch (IOException e) {
 	            e.printStackTrace();

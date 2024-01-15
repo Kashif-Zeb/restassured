@@ -19,7 +19,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class USERDETAILS_public_user_details extends TestBase{
 
-		
+	String gettoken = readFromFile("token.txt");
 	@BeforeClass
 	void public_user_details() throws InterruptedException
 	{
@@ -37,7 +37,7 @@ public class USERDETAILS_public_user_details extends TestBase{
 	httpRequest.header("Accept", "application/json");
 	httpRequest.header("Authorization", "Basic bWVkZWx6Ok1lZGVsekBkZXZAMTk3Ng==");
 	httpRequest.header("Content-Type", "application/json");
-	httpRequest.header("Authorization-Token", AUTH_user_login.getToken());
+	httpRequest.header("Authorization-Token", gettoken);
 //	httpRequest.header("Authorization-Token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6ODgwLCJ1c2VyX2xvZ2luIjoia2FzaGlmX3plYiBraGFuIDg3ODAxMSIsInVzZXJfZW1haWwiOiJrYXNoaWZ6azIxNkBnbWFpbC5jb20iLCJ1c2VyX3JlZ2lzdGVyZWQiOiIyMDIzLTA2LTA4IDA1OjM4OjM3IiwiZGlzcGxheV9uYW1lIjoia2FzaGlmIGtoYW4iLCJleHAiOjE3MDQ2OTQ2NjcsInNlY3JldF9rZXkiOiJOVEk1TnpJeCJ9.enoZJx5z9BrfzFTuzwFXOAb-i1KMVYHlSroV5nybMEE");
 	
 	httpRequest.body(requestParams.toJSONString());

@@ -35,7 +35,7 @@ public class AUTH_user_login extends TestBase{
 	// JSONObject is a class that represents a simple JSON. We can add Key-Value pairs using the put method
 	//{"name":"John123X","salary":"123","age":"23"}
 	JSONObject requestParams = new JSONObject();
-	requestParams.put("username","asif@yopmail.com"); // Cast
+	requestParams.put("username",emaill); // Cast
 	requestParams.put("password",passwordd);
 	requestParams.put("platform", "postman_login");
 	
