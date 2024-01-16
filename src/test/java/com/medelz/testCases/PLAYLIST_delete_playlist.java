@@ -18,10 +18,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class PLAYLIST_delete_playlist extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String playlistid = readFromFile("playlistid.txt");
 	
-	int pid=Integer.parseInt(playlistid);
 		
 	@BeforeClass
 	void delete_playlist() throws InterruptedException
@@ -59,6 +56,10 @@ public class PLAYLIST_delete_playlist extends TestBase{
 	void checkResposeBody()
 	{
 		logger.info("***********  Checking Respose Body **********");
+		String gettoken = readFromFile("token.txt");
+		String playlistid = readFromFile("playlistid.txt");
+		
+		int pid=Integer.parseInt(playlistid);
 		
 		String responseBody = response.getBody().asString();
 		System.out.println("response is ;"+responseBody);

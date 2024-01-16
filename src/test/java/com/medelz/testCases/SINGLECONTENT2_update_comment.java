@@ -35,11 +35,7 @@ public class SINGLECONTENT2_update_comment extends TestBase{
         String abc = content.toString();
         return abc;
     }
-	String gettoken = readFromFile("token.txt");
-	String fileid = readFromFile("fileid.txt");
-	String commentid = readFromFileee("commentid.txt");
-	int fid=Integer.parseInt(fileid);
-	int cmid=Integer.parseInt(commentid);
+	
 	
 	
 		
@@ -82,6 +78,11 @@ public class SINGLECONTENT2_update_comment extends TestBase{
 	void checkResposeBody()
 	{
 		logger.info("***********  Checking Respose Body **********");
+		String gettoken = readFromFile("token.txt");
+		String fileid = readFromFile("fileid.txt");
+		String commentid = readFromFileee("commentid.txt");
+		int fid=Integer.parseInt(fileid);
+		int cmid=Integer.parseInt(commentid);
 		
 		String responseBody = response.getBody().asString();
 		logger.info("Response Body==>"+responseBody);

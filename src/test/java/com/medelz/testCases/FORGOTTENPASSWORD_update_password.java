@@ -29,7 +29,7 @@ public class FORGOTTENPASSWORD_update_password extends TestBase{
 
 	
 	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
+	String emaill = readFromFile("newemail.txt");
 	String pwd = readFromFile("password.txt");
 	
 	

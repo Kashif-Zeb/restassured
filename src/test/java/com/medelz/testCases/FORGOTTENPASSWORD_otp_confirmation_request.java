@@ -29,7 +29,7 @@ public class FORGOTTENPASSWORD_otp_confirmation_request extends TestBase{
 	logger.info("*********Started otp_confirmation_request **********");
 	
 	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
+	String emaill = readFromFile("newemail.txt");
 	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

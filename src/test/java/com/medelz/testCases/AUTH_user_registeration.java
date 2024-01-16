@@ -19,11 +19,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class AUTH_user_registeration extends TestBase{
 	
-	String number = readFromFile("number.txt");
-	String emaill = readFromFile("email.txt");
-	String passwordd = readFromFile("password.txt");
-	String usernamee = readFromFile("username.txt");
-	String name = readFromFile("name.txt");
+	
 	@BeforeClass
 	void user_registeration() throws InterruptedException
 	{
@@ -81,6 +77,11 @@ public class AUTH_user_registeration extends TestBase{
 	void checkResposeBody()
 	{
 		logger.info("***********  Checking Respose Body **********");
+		String number = readFromFile("number.txt");
+		String emaill = readFromFile("email.txt");
+		String passwordd = readFromFile("password.txt");
+		String usernamee = readFromFile("username.txt");
+		String name = readFromFile("name.txt");
 		
 		String responseBody = response.getBody().asString();
 		logger.info("Response Body==>"+responseBody);

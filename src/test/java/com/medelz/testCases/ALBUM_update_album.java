@@ -18,10 +18,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class ALBUM_update_album extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String albumid = readFromFile("albumid.txt");
 	
-	int alid=Integer.parseInt(albumid);
 	
 	@BeforeClass
 	void update_album() throws InterruptedException
@@ -62,6 +59,10 @@ public class ALBUM_update_album extends TestBase{
 	void checkResposeBody()
 	{
 		logger.info("***********  Checking Respose Body **********");
+		String gettoken = readFromFile("token.txt");
+		String albumid = readFromFile("albumid.txt");
+		
+		int alid=Integer.parseInt(albumid);
 		
 		String responseBody = response.getBody().asString();
 		System.out.println("response is ;"+responseBody);
