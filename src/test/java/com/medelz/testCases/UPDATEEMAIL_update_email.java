@@ -20,8 +20,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class UPDATEEMAIL_update_email extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("newemail.txt");
+	
 	
 	
 	@BeforeClass
@@ -30,6 +29,10 @@ public class UPDATEEMAIL_update_email extends TestBase{
 		Thread.sleep(10000);
 	logger.info("*********Started update_email **********");
 		
+	
+	String gettoken = readFromFile("token.txt");
+	String emaill = readFromFile("newemail.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

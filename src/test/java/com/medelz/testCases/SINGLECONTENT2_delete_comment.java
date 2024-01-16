@@ -34,19 +34,17 @@ public class SINGLECONTENT2_delete_comment extends TestBase{
         String abc = content.toString();
         return abc;
     }
-	String gettoken = readFromFile("token.txt");
-	String fileid = readFromFile("fileid.txt");
-	String comment_id = readFromFile("commentid.txt");
-	int fid=Integer.parseInt(fileid);
-	int cmid=Integer.parseInt(comment_id);
+	
 	@BeforeClass
 	void delete_comment() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started delete_comment **********");
-	String commentid = readFromFileee("commentid.txt");
+	String gettoken = readFromFile("token.txt");
+	String fileid = readFromFile("fileid.txt");
+	String comment_id = readFromFile("commentid.txt");
 	int fid=Integer.parseInt(fileid);
-	int cmid=Integer.parseInt(commentid);
+	int cmid=Integer.parseInt(comment_id);
 	RestAssured.baseURI = TestBase.baseURI;;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

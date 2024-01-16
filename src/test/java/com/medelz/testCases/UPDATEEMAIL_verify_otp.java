@@ -20,8 +20,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class UPDATEEMAIL_verify_otp extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
+	
 
 	
 	@BeforeClass
@@ -30,6 +29,9 @@ public class UPDATEEMAIL_verify_otp extends TestBase{
 		Thread.sleep(10000);
 	logger.info("*********Started verify_otp **********");
 		
+	String gettoken = readFromFile("token.txt");
+	String emaill = readFromFile("email.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

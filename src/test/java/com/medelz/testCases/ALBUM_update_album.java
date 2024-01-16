@@ -26,6 +26,10 @@ public class ALBUM_update_album extends TestBase{
 	@BeforeClass
 	void update_album() throws InterruptedException
 	{
+		String gettoken = readFromFile("token.txt");
+		String albumid = readFromFile("albumid.txt");
+		
+		int alid=Integer.parseInt(albumid);
 		Thread.sleep(10000);
 	logger.info("*********Started update_album **********");
 		

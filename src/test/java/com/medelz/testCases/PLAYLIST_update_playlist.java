@@ -18,16 +18,21 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class PLAYLIST_update_playlist extends TestBase{
-
 	String gettoken = readFromFile("token.txt");
 	String playlistid = readFromFile("playlistid.txt");
 	int ids=Integer.parseInt(playlistid);
+	
 	@BeforeClass
 	void update_playlist() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started update_playlist **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	String playlistid = readFromFile("playlistid.txt");
+	int ids=Integer.parseInt(playlistid);
+	
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

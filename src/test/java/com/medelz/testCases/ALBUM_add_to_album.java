@@ -18,17 +18,17 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class ALBUM_add_to_album extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String fileid = readFromFile("fileid.txt");
-	String albumid = readFromFile("albumid.txt");
 	
-	int fid=Integer.parseInt(fileid);
-	int alid=Integer.parseInt(albumid);
 		
 	@BeforeClass
 	void add_to_album() throws InterruptedException
 	{
-	
+		String gettoken = readFromFile("token.txt");
+		String fileid = readFromFile("fileid.txt");
+		String albumid = readFromFile("albumid.txt");
+		
+		int fid=Integer.parseInt(fileid);
+		int alid=Integer.parseInt(albumid);
 	logger.info("*********Started add_to_album **********");
 	Thread.sleep(10000);
 	RestAssured.baseURI = TestBase.baseURI;

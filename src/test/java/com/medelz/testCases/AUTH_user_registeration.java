@@ -18,17 +18,25 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class AUTH_user_registeration extends TestBase{
+	
 	String number = readFromFile("number.txt");
 	String emaill = readFromFile("email.txt");
 	String passwordd = readFromFile("password.txt");
 	String usernamee = readFromFile("username.txt");
 	String name = readFromFile("name.txt");
-	
 	@BeforeClass
 	void user_registeration() throws InterruptedException
 	{
-	Thread.sleep(10000);
+		
+	
+		Thread.sleep(10000);
+		
 	logger.info("*********Started user_registeration **********");
+	String number = readFromFile("number.txt");
+	String emaill = readFromFile("email.txt");
+	String passwordd = readFromFile("password.txt");
+	String usernamee = readFromFile("username.txt");
+	String name = readFromFile("name.txt");
 	System.out.println(number + " " + emaill + " " + passwordd + " " + usernamee + " " + name);
 
 	RestAssured.baseURI = TestBase.baseURI;;

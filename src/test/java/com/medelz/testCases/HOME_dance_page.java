@@ -14,14 +14,16 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class HOME_dance_page extends TestBase{
-	String gettoken = readFromFile("token.txt");
+	
 		
 	@BeforeClass
 	void dancepage() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started dance_page **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 

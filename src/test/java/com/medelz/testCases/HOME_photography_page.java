@@ -15,13 +15,15 @@ import io.restassured.specification.RequestSpecification;
 
 public class HOME_photography_page extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
+	
 	@BeforeClass
 	void photographypage() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started photography_page **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 

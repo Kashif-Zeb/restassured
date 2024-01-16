@@ -21,9 +21,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class SINGLECONTENT2_add_comment extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String fileid = readFromFile("fileid.txt");
-	int fid=Integer.parseInt(fileid);
+	
 	
 	
 	@BeforeClass
@@ -31,6 +29,10 @@ public class SINGLECONTENT2_add_comment extends TestBase{
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started add_comment **********");
+	
+	String gettoken = readFromFile("token.txt");
+	String fileid = readFromFile("fileid.txt");
+	int fid=Integer.parseInt(fileid);
 		
 	RestAssured.baseURI = TestBase.baseURI;;
 	httpRequest = RestAssured.given();

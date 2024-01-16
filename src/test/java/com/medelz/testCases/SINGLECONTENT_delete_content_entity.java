@@ -15,16 +15,19 @@ import io.restassured.specification.RequestSpecification;
 
 public class SINGLECONTENT_delete_content_entity extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String playlistid = readFromFile("playlistid.txt");
-	String fileid = readFromFile("fileid.txt");
-	int pid=Integer.parseInt(playlistid);
-	int fid=Integer.parseInt(fileid);
+	
 	@BeforeClass
 	void delete_content_entity() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started delete_content_entity **********");
+	
+	
+	String gettoken = readFromFile("token.txt");
+	String playlistid = readFromFile("playlistid.txt");
+	String fileid = readFromFile("fileid.txt");
+	int pid=Integer.parseInt(playlistid);
+	int fid=Integer.parseInt(fileid);
 		
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

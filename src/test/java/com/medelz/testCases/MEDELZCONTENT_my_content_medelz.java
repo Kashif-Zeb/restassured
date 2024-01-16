@@ -18,14 +18,17 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class MEDELZCONTENT_my_content_medelz extends TestBase{
-	String gettoken = readFromFile("token.txt");
+	
 		
 	@BeforeClass
 	void my_content_medelz() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started my_content_medelz **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

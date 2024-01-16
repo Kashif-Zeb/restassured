@@ -20,16 +20,19 @@ import io.restassured.specification.RequestSpecification;
 
 public class FORGOTTENPASSWORD_update_password extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
-	String pwd = readFromFile("password.txt");
-	
+
 	@BeforeClass
 	void update_password() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started update_password **********");
-		
+
+	
+	String gettoken = readFromFile("token.txt");
+	String emaill = readFromFile("email.txt");
+	String pwd = readFromFile("password.txt");
+	
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

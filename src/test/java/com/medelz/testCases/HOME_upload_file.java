@@ -20,14 +20,16 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class HOME_upload_file extends TestBase{
-	String gettoken = readFromFile("token.txt");
+	
 		
 	@BeforeClass
 	void upload_file() throws InterruptedException
 	{
 	Thread.sleep(10000);
 	logger.info("*********Started upload_file **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

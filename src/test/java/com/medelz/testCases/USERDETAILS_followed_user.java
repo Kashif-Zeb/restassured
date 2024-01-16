@@ -19,12 +19,13 @@ import io.restassured.specification.RequestSpecification;
 
 public class USERDETAILS_followed_user extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
+	
 	@BeforeClass
 	void followed_user() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started followed_user **********");
+	String gettoken = readFromFile("token.txt");
 		
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

@@ -13,12 +13,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class SINGLECONTENT_public_song extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String playlistid = readFromFile("playlistid.txt");
-	String accountid = readFromFile("accountid.txt");
 	
-	int pid=Integer.parseInt(playlistid);
-	int aid=Integer.parseInt(accountid);
 	
 		
 	@BeforeClass
@@ -26,6 +21,14 @@ public class SINGLECONTENT_public_song extends TestBase{
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started public_song **********");
+	
+	String gettoken = readFromFile("token.txt");
+	String playlistid = readFromFile("playlistid.txt");
+	String accountid = readFromFile("accountid.txt");
+	
+	int pid=Integer.parseInt(playlistid);
+	int aid=Integer.parseInt(accountid);
+	
 	System.out.println(aid);
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

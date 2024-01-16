@@ -28,7 +28,13 @@ public class PLAYLIST_delete_playlist extends TestBase{
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started delete_playlist **********");
-		
+	
+	
+	String gettoken = readFromFile("token.txt");
+	String playlistid = readFromFile("playlistid.txt");
+	
+	int pid=Integer.parseInt(playlistid);
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

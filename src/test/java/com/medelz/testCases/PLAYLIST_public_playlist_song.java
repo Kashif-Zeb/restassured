@@ -14,18 +14,22 @@ import io.restassured.specification.RequestSpecification;
 
 public class PLAYLIST_public_playlist_song extends TestBase{
 
+	
+	@BeforeClass
+	void public_playlist_song() throws InterruptedException
+	{
+		Thread.sleep(10000);
+	logger.info("*********Started public_playlist_song **********");
 	String gettoken = readFromFile("token.txt");
 	String playlistids = readFromFile("playlistid.txt");
 	String aid = readFromFile("accountid.txt");
 	int acid=Integer.parseInt(aid);
 	
 	int id=Integer.parseInt(playlistids);
-	@BeforeClass
-	void public_playlist_song() throws InterruptedException
-	{
-		Thread.sleep(10000);
-	logger.info("*********Started public_playlist_song **********");
-		System.out.println(acid);
+	
+	
+	
+	System.out.println(acid);
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	httpRequest.header("Accept", "application/json");

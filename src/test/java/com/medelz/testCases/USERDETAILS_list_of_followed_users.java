@@ -19,14 +19,16 @@ import io.restassured.specification.RequestSpecification;
 
 public class USERDETAILS_list_of_followed_users extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String accountid = readFromFile("accountid.txt");
-	int aid=Integer.parseInt(accountid);
+	
 	@BeforeClass
 	void list_of_followed_users() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started list_of_followed_users **********");
+	
+	String gettoken = readFromFile("token.txt");
+	String accountid = readFromFile("accountid.txt");
+	int aid=Integer.parseInt(accountid);
 		
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

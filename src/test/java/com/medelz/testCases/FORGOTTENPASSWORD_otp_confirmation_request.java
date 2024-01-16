@@ -20,15 +20,17 @@ import io.restassured.specification.RequestSpecification;
 
 public class FORGOTTENPASSWORD_otp_confirmation_request extends TestBase{
 
-	String gettoken = readFromFile("token.txt");
-	String emaill = readFromFile("email.txt");
+	
 	
 	@BeforeClass
 	void otp_confirmation_request() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started otp_confirmation_request **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	String emaill = readFromFile("email.txt");
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	JSONObject requestParams = new JSONObject();

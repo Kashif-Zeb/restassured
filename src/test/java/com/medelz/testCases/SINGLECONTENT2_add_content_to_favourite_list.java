@@ -27,6 +27,10 @@ public class SINGLECONTENT2_add_content_to_favourite_list extends TestBase{
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started add_content_to_favourite_list **********");
+	
+	String gettoken = readFromFile("token.txt");
+	String fileid = readFromFile("fileid.txt");
+	int fid=Integer.parseInt(fileid);
 		
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

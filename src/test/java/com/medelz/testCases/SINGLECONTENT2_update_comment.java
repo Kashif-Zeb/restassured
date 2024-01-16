@@ -35,12 +35,12 @@ public class SINGLECONTENT2_update_comment extends TestBase{
         String abc = content.toString();
         return abc;
     }
-	
 	String gettoken = readFromFile("token.txt");
 	String fileid = readFromFile("fileid.txt");
 	String commentid = readFromFileee("commentid.txt");
 	int fid=Integer.parseInt(fileid);
 	int cmid=Integer.parseInt(commentid);
+	
 	
 		
 	@BeforeClass
@@ -48,6 +48,8 @@ public class SINGLECONTENT2_update_comment extends TestBase{
 	{
 		Thread.sleep(20000);
 	logger.info("*********Started update_comment **********");
+	String gettoken = readFromFile("token.txt");
+	String fileid = readFromFile("fileid.txt");
 	String commentid = readFromFileee("commentid.txt");
 	int fid=Integer.parseInt(fileid);
 	int cmid=Integer.parseInt(commentid);

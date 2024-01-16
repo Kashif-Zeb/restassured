@@ -13,14 +13,18 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class USERDETAILS_private_user_details extends TestBase{
-
 	String gettoken = readFromFile("token.txt");
 	String name = readFromFile("name.txt");
+	
 	@BeforeClass
 	void private_user_details() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started private_user_details **********");
+	
+	
+	String gettoken = readFromFile("token.txt");
+	String name = readFromFile("name.txt");
 		
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();

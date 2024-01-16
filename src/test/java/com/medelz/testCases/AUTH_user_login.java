@@ -20,12 +20,14 @@ import io.restassured.specification.RequestSpecification;
 public class AUTH_user_login extends TestBase{
 	RequestSpecification httpRequest;
 	static Response response;
+	
 	String emaill = readFromFile("email.txt");
 	String passwordd = readFromFile("password.txt");
-
 	@BeforeClass
 	void login() throws InterruptedException
 	{
+		String emaill = readFromFile("email.txt");
+		String passwordd = readFromFile("password.txt");
 		Thread.sleep(10000);
 	logger.info("*********post_user_login **********");
 		

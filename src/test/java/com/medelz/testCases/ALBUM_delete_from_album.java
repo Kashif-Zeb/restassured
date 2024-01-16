@@ -18,16 +18,17 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class ALBUM_delete_from_album extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String fileid = readFromFile("fileid.txt");
-	String albumid = readFromFile("albumid.txt");
 	
-	int fid=Integer.parseInt(fileid);
-	int alid=Integer.parseInt(albumid);
 		
 	@BeforeClass
 	void delete_from_album() throws InterruptedException
 	{
+		String gettoken = readFromFile("token.txt");
+		String fileid = readFromFile("fileid.txt");
+		String albumid = readFromFile("albumid.txt");
+		
+		int fid=Integer.parseInt(fileid);
+		int alid=Integer.parseInt(albumid);
 		Thread.sleep(10000);
 	logger.info("*********Started delete_from_album **********");
 		

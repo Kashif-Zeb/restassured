@@ -18,14 +18,15 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class ALBUM_get_album_content extends TestBase{
-	String gettoken = readFromFile("token.txt");
-	String albumid = readFromFile("albumid.txt");
 	
-	int alid=Integer.parseInt(albumid);
 		
 	@BeforeClass
 	void get_album_content() throws InterruptedException
 	{
+		String gettoken = readFromFile("token.txt");
+		String albumid = readFromFile("albumid.txt");
+		
+		int alid=Integer.parseInt(albumid);
 		Thread.sleep(10000);
 	logger.info("*********Started get_album_content **********");
 		

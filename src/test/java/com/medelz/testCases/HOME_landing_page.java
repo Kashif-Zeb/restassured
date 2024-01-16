@@ -15,13 +15,16 @@ import io.restassured.specification.RequestSpecification;
 public class HOME_landing_page extends TestBase{
 	RequestSpecification httpRequest;
 	Response response;
-	String gettoken = readFromFile("token.txt");	
+		
 	@BeforeClass
 	void landing_page() throws InterruptedException
 	{
 		Thread.sleep(10000);
 	logger.info("*********Started landingpage **********");
-		
+	
+	String gettoken = readFromFile("token.txt");
+	
+	
 	RestAssured.baseURI = TestBase.baseURI;
 	httpRequest = RestAssured.given();
 	httpRequest.header("Accept", "application/json");

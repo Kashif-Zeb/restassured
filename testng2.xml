@@ -9,11 +9,13 @@
 
 	    
       
-      <class name="com.medelz.testCases.SINGLECONTENT2_add_comment"/>
-       
-
-  
-         <class name="com.medelz.testCases.SINGLECONTENT2_update_comment"/>
+      <class name="com.medelz.testCases.ALBUM_create_album"/>
+      <class name="com.medelz.testCases.ALBUM_update_album"/>
+      <class name="com.medelz.testCases.ALBUM_delete_from_album"/>
+      <class name="com.medelz.testCases.ALBUM_add_to_album"/>
+      <class name="com.medelz.testCases.ALBUM_get_album_content"/>
+      <class name="com.medelz.testCases.ALBUM_get_album_and_playlist"/>
+      <class name="com.medelz.testCases.ALBUM_delete_album"/>
       
          
          
