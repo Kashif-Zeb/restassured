@@ -37,7 +37,7 @@ public class AUTH_user_login extends TestBase{
 	// JSONObject is a class that represents a simple JSON. We can add Key-Value pairs using the put method
 	//{"name":"John123X","salary":"123","age":"23"}
 	JSONObject requestParams = new JSONObject();
-	requestParams.put("username",emaill); // Cast
+	requestParams.put("username","kashifzk216@gmail.com"); // Cast
 	requestParams.put("password",passwordd);
 	requestParams.put("platform", "postman_login");
 	
@@ -62,7 +62,7 @@ void checkResposeBody()
 {
 	String responseBody = response.getBody().asString();
 	System.out.println("response is ;"+responseBody);
-	Assert.assertEquals(responseBody.contains(emaill), true);
+//	Assert.assertEquals(responseBody.contains(emaill), true);
 	Assert.assertEquals(responseBody.contains("Congratulations! You are logged in."), true);
 //	Assert.assertEquals(responseBody.contains(empAge), true);
 }

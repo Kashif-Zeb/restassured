@@ -1,279 +1,1695 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+<testng-results ignored="0" total="234" passed="232" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-16T10:59:27 PKT" name="Suite" finished-at="2024-01-16T11:02:14 PKT" duration-ms="166935">
+  <suite started-at="2024-01-22T05:17:58 PKT" name="Suite" finished-at="2024-01-22T05:28:33 PKT" duration-ms="635530">
     <groups>
     </groups>
-    <test started-at="2024-01-16T10:59:27 PKT" name="Test" finished-at="2024-01-16T11:02:14 PKT" duration-ms="166935">
-      <class name="com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:25 PKT" name="setup" finished-at="2024-01-16T11:01:25 PKT" duration-ms="3" status="PASS">
+    <test started-at="2024-01-22T05:17:58 PKT" name="Test" finished-at="2024-01-22T05:28:33 PKT" duration-ms="635530">
+      <class name="com.medelz.testCases.SINGLECONTENT2_add_feedback">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:11 PKT" name="setup" finished-at="2024-01-22T05:26:11 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="otp_confirmation_request()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:25 PKT" name="otp_confirmation_request" finished-at="2024-01-16T11:01:57 PKT" duration-ms="31723" status="PASS">
+        <test-method is-config="true" signature="add_feedback()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:11 PKT" name="add_feedback" finished-at="2024-01-22T05:26:24 PKT" duration-ms="12838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- otp_confirmation_request -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="checkContentType" finished-at="2024-01-16T11:01:57 PKT" duration-ms="4" status="PASS">
+        </test-method> <!-- add_feedback -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="checkContentType" finished-at="2024-01-22T05:26:24 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="checkResponseTime" finished-at="2024-01-16T11:01:57 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="checkResponseTime" finished-at="2024-01-22T05:26:24 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="checkResposeBody" finished-at="2024-01-16T11:01:57 PKT" duration-ms="5" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="checkResposeBody" finished-at="2024-01-22T05:26:24 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="checkStatusCode" finished-at="2024-01-16T11:01:57 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="checkStatusCode" finished-at="2024-01-22T05:26:24 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="checkserverType" finished-at="2024-01-16T11:01:57 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="checkserverType" finished-at="2024-01-22T05:26:24 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request@229c6181]" started-at="2024-01-16T11:01:57 PKT" name="tearDown" finished-at="2024-01-16T11:01:57 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_feedback@5d0bf09b]" started-at="2024-01-22T05:26:24 PKT" name="tearDown" finished-at="2024-01-22T05:26:24 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request -->
-      <class name="com.medelz.testCases.UPDATEEMAIL_update_email">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:31 PKT" name="setup" finished-at="2024-01-16T11:00:31 PKT" duration-ms="3" status="PASS">
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_feedback -->
+      <class name="com.medelz.testCases.ALBUM_delete_album">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:23:53 PKT" name="setup" finished-at="2024-01-22T05:23:53 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="update_email()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:31 PKT" name="update_email" finished-at="2024-01-16T11:00:45 PKT" duration-ms="13616" status="PASS">
+        <test-method is-config="true" signature="delete_album()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:23:53 PKT" name="delete_album" finished-at="2024-01-22T05:24:06 PKT" duration-ms="13277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- update_email -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="checkContentType" finished-at="2024-01-16T11:00:45 PKT" duration-ms="2" status="PASS">
+        </test-method> <!-- delete_album -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="checkContentType" finished-at="2024-01-22T05:24:06 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="checkResponseTime" finished-at="2024-01-16T11:00:45 PKT" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="checkResponseTime" finished-at="2024-01-22T05:24:06 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="checkResposeBody" finished-at="2024-01-16T11:00:45 PKT" duration-ms="4" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="checkResposeBody" finished-at="2024-01-22T05:24:06 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="checkStatusCode" finished-at="2024-01-16T11:00:45 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="checkStatusCode" finished-at="2024-01-22T05:24:06 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="checkserverType" finished-at="2024-01-16T11:00:45 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="checkserverType" finished-at="2024-01-22T05:24:06 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_update_email@18df8434]" started-at="2024-01-16T11:00:45 PKT" name="tearDown" finished-at="2024-01-16T11:00:45 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_delete_album@7674f035]" started-at="2024-01-22T05:24:06 PKT" name="tearDown" finished-at="2024-01-22T05:24:06 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.UPDATEEMAIL_update_email -->
+      </class> <!-- com.medelz.testCases.ALBUM_delete_album -->
+      <class name="com.medelz.testCases.SINGLECONTENT_delete_content_entity">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:28 PKT" name="setup" finished-at="2024-01-22T05:21:28 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="delete_content_entity()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:28 PKT" name="delete_content_entity" finished-at="2024-01-22T05:21:42 PKT" duration-ms="13728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_content_entity -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="checkContentType" finished-at="2024-01-22T05:21:42 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="checkResponseTime" finished-at="2024-01-22T05:21:42 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="checkResposeBody" finished-at="2024-01-22T05:21:42 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="checkStatusCode" finished-at="2024-01-22T05:21:42 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="checkserverType" finished-at="2024-01-22T05:21:42 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_delete_content_entity@1530c739]" started-at="2024-01-22T05:21:42 PKT" name="tearDown" finished-at="2024-01-22T05:21:42 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT_delete_content_entity -->
+      <class name="com.medelz.testCases.PLAYLIST_public_playlist_song">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:02 PKT" name="setup" finished-at="2024-01-22T05:21:02 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="public_playlist_song()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:02 PKT" name="public_playlist_song" finished-at="2024-01-22T05:21:15 PKT" duration-ms="12913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- public_playlist_song -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="checkContentType" finished-at="2024-01-22T05:21:15 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="checkResponseTime" finished-at="2024-01-22T05:21:15 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="checkResposeBody" finished-at="2024-01-22T05:21:15 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="checkStatusCode" finished-at="2024-01-22T05:21:15 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="checkserverType" finished-at="2024-01-22T05:21:15 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PLAYLIST_public_playlist_song@53fe15ff]" started-at="2024-01-22T05:21:15 PKT" name="tearDown" finished-at="2024-01-22T05:21:15 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.PLAYLIST_public_playlist_song -->
+      <class name="com.medelz.testCases.USERDETAILS_change_user_details">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:36 PKT" name="setup" finished-at="2024-01-22T05:26:36 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="change_user_details()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:36 PKT" name="change_user_details" finished-at="2024-01-22T05:26:49 PKT" duration-ms="12993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change_user_details -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:49 PKT" name="checkContentType" finished-at="2024-01-22T05:26:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:49 PKT" name="checkResponseTime" finished-at="2024-01-22T05:26:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:49 PKT" name="checkResposeBody" finished-at="2024-01-22T05:26:49 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:50 PKT" name="checkStatusCode" finished-at="2024-01-22T05:26:50 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:50 PKT" name="checkserverType" finished-at="2024-01-22T05:26:50 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_user_details@3e8c3cb]" started-at="2024-01-22T05:26:50 PKT" name="tearDown" finished-at="2024-01-22T05:26:50 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_change_user_details -->
+      <class name="com.medelz.testCases.HOME_fashion_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:27 PKT" name="setup" finished-at="2024-01-22T05:19:27 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="fashionpage()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:27 PKT" name="fashionpage" finished-at="2024-01-22T05:19:41 PKT" duration-ms="13877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashionpage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="checkContentType" finished-at="2024-01-22T05:19:41 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="checkResponseTime" finished-at="2024-01-22T05:19:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="checkResposeBody" finished-at="2024-01-22T05:19:41 PKT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="checkStatusCode" finished-at="2024-01-22T05:19:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="checkserverType" finished-at="2024-01-22T05:19:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_fashion_page@6d4d66d2]" started-at="2024-01-22T05:19:41 PKT" name="tearDown" finished-at="2024-01-22T05:19:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_fashion_page -->
+      <class name="com.medelz.testCases.USERDETAILS_all_artist_queried">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:16 PKT" name="setup" finished-at="2024-01-22T05:27:16 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="all_artist_queried()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:16 PKT" name="all_artist_queried" finished-at="2024-01-22T05:27:29 PKT" duration-ms="12959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_artist_queried -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="checkContentType" finished-at="2024-01-22T05:27:29 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="checkResponseTime" finished-at="2024-01-22T05:27:29 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="checkResposeBody" finished-at="2024-01-22T05:27:29 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="checkStatusCode" finished-at="2024-01-22T05:27:29 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="checkserverType" finished-at="2024-01-22T05:27:29 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_all_artist_queried@54422e18]" started-at="2024-01-22T05:27:29 PKT" name="tearDown" finished-at="2024-01-22T05:27:29 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_all_artist_queried -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_delete_comment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:24 PKT" name="setup" finished-at="2024-01-22T05:26:24 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="delete_comment()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:24 PKT" name="delete_comment" finished-at="2024-01-22T05:26:36 PKT" duration-ms="12881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_comment -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="checkContentType" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="checkResponseTime" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="checkResposeBody" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="checkStatusCode" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="checkserverType" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_delete_comment@793f29ff]" started-at="2024-01-22T05:26:36 PKT" name="tearDown" finished-at="2024-01-22T05:26:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_delete_comment -->
+      <class name="com.medelz.testCases.ALBUM_create_album">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:33 PKT" name="setup" finished-at="2024-01-22T05:22:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="create_album()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:33 PKT" name="create_album" finished-at="2024-01-22T05:22:47 PKT" duration-ms="13730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_album -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="checkContentType" finished-at="2024-01-22T05:22:47 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="checkResponseTime" finished-at="2024-01-22T05:22:47 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="checkResposeBody" finished-at="2024-01-22T05:22:47 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="checkStatusCode" finished-at="2024-01-22T05:22:47 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="checkserverType" finished-at="2024-01-22T05:22:47 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_create_album@15bb5034]" started-at="2024-01-22T05:22:47 PKT" name="tearDown" finished-at="2024-01-22T05:22:47 PKT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_create_album -->
+      <class name="com.medelz.testCases.USERDETAILS_list_of_followed_users">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:27:54 PKT" name="setup" finished-at="2024-01-22T05:27:54 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="list_of_followed_users()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:27:54 PKT" name="list_of_followed_users" finished-at="2024-01-22T05:28:07 PKT" duration-ms="12986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_of_followed_users -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="checkContentType" finished-at="2024-01-22T05:28:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="checkResponseTime" finished-at="2024-01-22T05:28:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="checkResposeBody" finished-at="2024-01-22T05:28:07 PKT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at org.testng.Assert.assertEquals(Assert.java:1076)
+at com.medelz.testCases.USERDETAILS_list_of_followed_users.checkResposeBody(USERDETAILS_list_of_followed_users.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="checkStatusCode" finished-at="2024-01-22T05:28:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="checkserverType" finished-at="2024-01-22T05:28:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_list_of_followed_users@7ef82753]" started-at="2024-01-22T05:28:07 PKT" name="tearDown" finished-at="2024-01-22T05:28:07 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_list_of_followed_users -->
+      <class name="com.medelz.testCases.HOME_landing_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:33 PKT" name="setup" finished-at="2024-01-22T05:18:33 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="landing_page()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:33 PKT" name="landing_page" finished-at="2024-01-22T05:18:46 PKT" duration-ms="13007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landing_page -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="checkContentType" finished-at="2024-01-22T05:18:46 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="checkResponseTime" finished-at="2024-01-22T05:18:46 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="checkResposeBody" finished-at="2024-01-22T05:18:46 PKT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="checkStatusCode" finished-at="2024-01-22T05:18:46 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="checkserverType" finished-at="2024-01-22T05:18:46 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_landing_page@644baf4a]" started-at="2024-01-22T05:18:46 PKT" name="tearDown" finished-at="2024-01-22T05:18:46 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_landing_page -->
+      <class name="com.medelz.testCases.USERDETAILS_followed_user">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:20 PKT" name="setup" finished-at="2024-01-22T05:28:20 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="followed_user()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:20 PKT" name="followed_user" finished-at="2024-01-22T05:28:33 PKT" duration-ms="13639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followed_user -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="checkContentType" finished-at="2024-01-22T05:28:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="checkResponseTime" finished-at="2024-01-22T05:28:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="checkResposeBody" finished-at="2024-01-22T05:28:33 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="checkStatusCode" finished-at="2024-01-22T05:28:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="checkserverType" finished-at="2024-01-22T05:28:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_followed_user@202b0582]" started-at="2024-01-22T05:28:33 PKT" name="tearDown" finished-at="2024-01-22T05:28:33 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_followed_user -->
+      <class name="com.medelz.testCases.SINGLECONTENT_add_single_content">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:42 PKT" name="setup" finished-at="2024-01-22T05:21:42 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="add_single_content()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:42 PKT" name="add_single_content" finished-at="2024-01-22T05:21:55 PKT" duration-ms="13062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_single_content -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="checkContentType" finished-at="2024-01-22T05:21:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="checkResponseTime" finished-at="2024-01-22T05:21:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="checkResposeBody" finished-at="2024-01-22T05:21:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="checkStatusCode" finished-at="2024-01-22T05:21:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="checkserverType" finished-at="2024-01-22T05:21:55 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT_add_single_content@5b1669c0]" started-at="2024-01-22T05:21:55 PKT" name="tearDown" finished-at="2024-01-22T05:21:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT_add_single_content -->
+      <class name="com.medelz.testCases.USERDETAILS_update_password">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:07 PKT" name="setup" finished-at="2024-01-22T05:28:07 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="update_password()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:07 PKT" name="update_password" finished-at="2024-01-22T05:28:20 PKT" duration-ms="12745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_password -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="checkContentType" finished-at="2024-01-22T05:28:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="checkResponseTime" finished-at="2024-01-22T05:28:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="checkResposeBody" finished-at="2024-01-22T05:28:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="checkStatusCode" finished-at="2024-01-22T05:28:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="checkserverType" finished-at="2024-01-22T05:28:20 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_update_password@3b0fe47a]" started-at="2024-01-22T05:28:20 PKT" name="tearDown" finished-at="2024-01-22T05:28:20 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_update_password -->
+      <class name="com.medelz.testCases.USERDETAILS_featured_users">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:41 PKT" name="setup" finished-at="2024-01-22T05:27:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="featured_users()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:41 PKT" name="featured_users" finished-at="2024-01-22T05:27:54 PKT" duration-ms="12886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featured_users -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="checkContentType" finished-at="2024-01-22T05:27:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="checkResponseTime" finished-at="2024-01-22T05:27:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="checkResposeBody" finished-at="2024-01-22T05:27:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="checkStatusCode" finished-at="2024-01-22T05:27:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="checkserverType" finished-at="2024-01-22T05:27:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_featured_users@3e27ba32]" started-at="2024-01-22T05:27:54 PKT" name="tearDown" finished-at="2024-01-22T05:27:54 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_featured_users -->
+      <class name="com.medelz.testCases.PLAYLIST_update_playlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:15 PKT" name="setup" finished-at="2024-01-22T05:21:15 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="update_playlist()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:15 PKT" name="update_playlist" finished-at="2024-01-22T05:21:28 PKT" duration-ms="13058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_playlist -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="checkContentType" finished-at="2024-01-22T05:21:28 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="checkResponseTime" finished-at="2024-01-22T05:21:28 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="checkResposeBody" finished-at="2024-01-22T05:21:28 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="checkStatusCode" finished-at="2024-01-22T05:21:28 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="checkserverType" finished-at="2024-01-22T05:21:28 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PLAYLIST_update_playlist@449a4f23]" started-at="2024-01-22T05:21:28 PKT" name="tearDown" finished-at="2024-01-22T05:21:28 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.PLAYLIST_update_playlist -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_single_content">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:25:58 PKT" name="setup" finished-at="2024-01-22T05:25:58 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="single_content()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:25:58 PKT" name="single_content" finished-at="2024-01-22T05:26:11 PKT" duration-ms="12612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- single_content -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="checkContentType" finished-at="2024-01-22T05:26:11 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="checkResponseTime" finished-at="2024-01-22T05:26:11 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="checkResposeBody" finished-at="2024-01-22T05:26:11 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="checkStatusCode" finished-at="2024-01-22T05:26:11 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="checkserverType" finished-at="2024-01-22T05:26:11 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_single_content@248e319b]" started-at="2024-01-22T05:26:11 PKT" name="tearDown" finished-at="2024-01-22T05:26:11 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_single_content -->
+      <class name="com.medelz.testCases.PLAYLIST_delete_playlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:21:55 PKT" name="setup" finished-at="2024-01-22T05:21:55 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="delete_playlist()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:21:55 PKT" name="delete_playlist" finished-at="2024-01-22T05:22:08 PKT" duration-ms="12929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_playlist -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="checkContentType" finished-at="2024-01-22T05:22:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="checkResponseTime" finished-at="2024-01-22T05:22:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="checkResposeBody" finished-at="2024-01-22T05:22:08 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="checkStatusCode" finished-at="2024-01-22T05:22:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="checkserverType" finished-at="2024-01-22T05:22:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PLAYLIST_delete_playlist@78e4deb0]" started-at="2024-01-22T05:22:08 PKT" name="tearDown" finished-at="2024-01-22T05:22:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.PLAYLIST_delete_playlist -->
+      <class name="com.medelz.testCases.USERDETAILS_private_user_details">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:26:50 PKT" name="setup" finished-at="2024-01-22T05:26:50 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="private_user_details()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:26:50 PKT" name="private_user_details" finished-at="2024-01-22T05:27:03 PKT" duration-ms="13127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- private_user_details -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="checkContentType" finished-at="2024-01-22T05:27:03 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="checkResponseTime" finished-at="2024-01-22T05:27:03 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="checkResposeBody" finished-at="2024-01-22T05:27:03 PKT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="checkStatusCode" finished-at="2024-01-22T05:27:03 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="checkserverType" finished-at="2024-01-22T05:27:03 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_private_user_details@563f38c4]" started-at="2024-01-22T05:27:03 PKT" name="tearDown" finished-at="2024-01-22T05:27:03 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_private_user_details -->
+      <class name="com.medelz.testCases.ALBUM_add_to_album">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:13 PKT" name="setup" finished-at="2024-01-22T05:23:13 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="add_to_album()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:13 PKT" name="add_to_album" finished-at="2024-01-22T05:23:26 PKT" duration-ms="12988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_album -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="checkContentType" finished-at="2024-01-22T05:23:26 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="checkResponseTime" finished-at="2024-01-22T05:23:26 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="checkResposeBody" finished-at="2024-01-22T05:23:26 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="checkStatusCode" finished-at="2024-01-22T05:23:26 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="checkserverType" finished-at="2024-01-22T05:23:26 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_add_to_album@8f2ef19]" started-at="2024-01-22T05:23:26 PKT" name="tearDown" finished-at="2024-01-22T05:23:26 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_add_to_album -->
+      <class name="com.medelz.testCases.PLAYLIST_create_playlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:36 PKT" name="setup" finished-at="2024-01-22T05:20:36 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="create_playlist()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:36 PKT" name="create_playlist" finished-at="2024-01-22T05:20:49 PKT" duration-ms="13104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_playlist -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="checkContentType" finished-at="2024-01-22T05:20:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="checkResponseTime" finished-at="2024-01-22T05:20:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="checkResposeBody" finished-at="2024-01-22T05:20:49 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="checkStatusCode" finished-at="2024-01-22T05:20:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="checkserverType" finished-at="2024-01-22T05:20:49 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PLAYLIST_create_playlist@76a4ebf2]" started-at="2024-01-22T05:20:49 PKT" name="tearDown" finished-at="2024-01-22T05:20:49 PKT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.PLAYLIST_create_playlist -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_favourite_list">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:07 PKT" name="setup" finished-at="2024-01-22T05:25:07 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="favourite_list()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:07 PKT" name="favourite_list" finished-at="2024-01-22T05:25:19 PKT" duration-ms="12819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favourite_list -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="checkContentType" finished-at="2024-01-22T05:25:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="checkResponseTime" finished-at="2024-01-22T05:25:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="checkResposeBody" finished-at="2024-01-22T05:25:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="checkStatusCode" finished-at="2024-01-22T05:25:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="checkserverType" finished-at="2024-01-22T05:25:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_favourite_list@17f62e33]" started-at="2024-01-22T05:25:19 PKT" name="tearDown" finished-at="2024-01-22T05:25:19 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_favourite_list -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_add_comment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:06 PKT" name="setup" finished-at="2024-01-22T05:24:06 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="add_comment()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:06 PKT" name="add_comment" finished-at="2024-01-22T05:24:19 PKT" duration-ms="12836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_comment -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="checkContentType" finished-at="2024-01-22T05:24:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="checkResponseTime" finished-at="2024-01-22T05:24:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="checkResposeBody" finished-at="2024-01-22T05:24:19 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="checkStatusCode" finished-at="2024-01-22T05:24:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="checkserverType" finished-at="2024-01-22T05:24:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_comment@69e153c5]" started-at="2024-01-22T05:24:19 PKT" name="tearDown" finished-at="2024-01-22T05:24:19 PKT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_comment -->
+      <class name="com.medelz.testCases.ALBUM_get_album_and_playlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:40 PKT" name="setup" finished-at="2024-01-22T05:23:40 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="get_album_and_playlist()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:40 PKT" name="get_album_and_playlist" finished-at="2024-01-22T05:23:53 PKT" duration-ms="13070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_album_and_playlist -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="checkContentType" finished-at="2024-01-22T05:23:53 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="checkResponseTime" finished-at="2024-01-22T05:23:53 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="checkResposeBody" finished-at="2024-01-22T05:23:53 PKT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="checkStatusCode" finished-at="2024-01-22T05:23:53 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="checkserverType" finished-at="2024-01-22T05:23:53 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_and_playlist@2cf3d63b]" started-at="2024-01-22T05:23:53 PKT" name="tearDown" finished-at="2024-01-22T05:23:53 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_get_album_and_playlist -->
+      <class name="com.medelz.testCases.ALBUM_delete_from_album">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:00 PKT" name="setup" finished-at="2024-01-22T05:23:00 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="delete_from_album()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:00 PKT" name="delete_from_album" finished-at="2024-01-22T05:23:13 PKT" duration-ms="12864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_from_album -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="checkContentType" finished-at="2024-01-22T05:23:13 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="checkResponseTime" finished-at="2024-01-22T05:23:13 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="checkResposeBody" finished-at="2024-01-22T05:23:13 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="checkStatusCode" finished-at="2024-01-22T05:23:13 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="checkserverType" finished-at="2024-01-22T05:23:13 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_delete_from_album@2eae8e6e]" started-at="2024-01-22T05:23:13 PKT" name="tearDown" finished-at="2024-01-22T05:23:13 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_delete_from_album -->
+      <class name="com.medelz.testCases.ALBUM_get_album_content">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:26 PKT" name="setup" finished-at="2024-01-22T05:23:26 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="get_album_content()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:26 PKT" name="get_album_content" finished-at="2024-01-22T05:23:40 PKT" duration-ms="13224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_album_content -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="checkContentType" finished-at="2024-01-22T05:23:40 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="checkResponseTime" finished-at="2024-01-22T05:23:40 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="checkResposeBody" finished-at="2024-01-22T05:23:40 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="checkStatusCode" finished-at="2024-01-22T05:23:40 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="checkserverType" finished-at="2024-01-22T05:23:40 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_get_album_content@470734c3]" started-at="2024-01-22T05:23:40 PKT" name="tearDown" finished-at="2024-01-22T05:23:40 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_get_album_content -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:19 PKT" name="setup" finished-at="2024-01-22T05:25:19 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="add_content_to_favourite_list()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:19 PKT" name="add_content_to_favourite_list" finished-at="2024-01-22T05:25:32 PKT" duration-ms="12575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_content_to_favourite_list -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="checkContentType" finished-at="2024-01-22T05:25:32 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="checkResponseTime" finished-at="2024-01-22T05:25:32 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="checkResposeBody" finished-at="2024-01-22T05:25:32 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="checkStatusCode" finished-at="2024-01-22T05:25:32 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="checkserverType" finished-at="2024-01-22T05:25:32 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2@76b1e9b8]" started-at="2024-01-22T05:25:32 PKT" name="tearDown" finished-at="2024-01-22T05:25:32 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2 -->
+      <class name="com.medelz.testCases.HOME_painting_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:19:55 PKT" name="setup" finished-at="2024-01-22T05:19:55 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="paintingpage()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:19:55 PKT" name="paintingpage" finished-at="2024-01-22T05:20:08 PKT" duration-ms="13368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paintingpage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="checkContentType" finished-at="2024-01-22T05:20:08 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="checkResponseTime" finished-at="2024-01-22T05:20:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="checkResposeBody" finished-at="2024-01-22T05:20:08 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="checkStatusCode" finished-at="2024-01-22T05:20:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="checkserverType" finished-at="2024-01-22T05:20:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_painting_page@11392934]" started-at="2024-01-22T05:20:08 PKT" name="tearDown" finished-at="2024-01-22T05:20:08 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_painting_page -->
+      <class name="com.medelz.testCases.HOME_film_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:41 PKT" name="setup" finished-at="2024-01-22T05:19:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="filmpage()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:41 PKT" name="filmpage" finished-at="2024-01-22T05:19:55 PKT" duration-ms="13860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filmpage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="checkContentType" finished-at="2024-01-22T05:19:55 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="checkResponseTime" finished-at="2024-01-22T05:19:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="checkResposeBody" finished-at="2024-01-22T05:19:55 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="checkStatusCode" finished-at="2024-01-22T05:19:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="checkserverType" finished-at="2024-01-22T05:19:55 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_film_page@2a265ea9]" started-at="2024-01-22T05:19:55 PKT" name="tearDown" finished-at="2024-01-22T05:19:55 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_film_page -->
+      <class name="com.medelz.testCases.MEDELZCONTENT_my_content_medelz">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:08 PKT" name="setup" finished-at="2024-01-22T05:22:08 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="my_content_medelz()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:08 PKT" name="my_content_medelz" finished-at="2024-01-22T05:22:20 PKT" duration-ms="12515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_content_medelz -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="checkContentType" finished-at="2024-01-22T05:22:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="checkResponseTime" finished-at="2024-01-22T05:22:20 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="checkResposeBody" finished-at="2024-01-22T05:22:20 PKT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="checkStatusCode" finished-at="2024-01-22T05:22:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="checkserverType" finished-at="2024-01-22T05:22:20 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.MEDELZCONTENT_my_content_medelz@6e9175d8]" started-at="2024-01-22T05:22:20 PKT" name="tearDown" finished-at="2024-01-22T05:22:20 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.MEDELZCONTENT_my_content_medelz -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_content_suggestions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:45 PKT" name="setup" finished-at="2024-01-22T05:25:45 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="content_suggestions()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:45 PKT" name="content_suggestions" finished-at="2024-01-22T05:25:58 PKT" duration-ms="12966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- content_suggestions -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="checkContentType" finished-at="2024-01-22T05:25:58 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="checkResponseTime" finished-at="2024-01-22T05:25:58 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="checkResposeBody" finished-at="2024-01-22T05:25:58 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="checkStatusCode" finished-at="2024-01-22T05:25:58 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="checkserverType" finished-at="2024-01-22T05:25:58 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_content_suggestions@2af004b]" started-at="2024-01-22T05:25:58 PKT" name="tearDown" finished-at="2024-01-22T05:25:58 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_content_suggestions -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_update_comment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:19 PKT" name="setup" finished-at="2024-01-22T05:24:19 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="update_comment()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:19 PKT" name="update_comment" finished-at="2024-01-22T05:24:41 PKT" duration-ms="22376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_comment -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="checkContentType" finished-at="2024-01-22T05:24:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="checkResponseTime" finished-at="2024-01-22T05:24:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="checkResposeBody" finished-at="2024-01-22T05:24:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="checkStatusCode" finished-at="2024-01-22T05:24:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="checkserverType" finished-at="2024-01-22T05:24:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_update_comment@173ed316]" started-at="2024-01-22T05:24:41 PKT" name="tearDown" finished-at="2024-01-22T05:24:41 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_update_comment -->
+      <class name="com.medelz.testCases.ALBUM_update_album">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:22:47 PKT" name="setup" finished-at="2024-01-22T05:22:47 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="update_album()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:22:47 PKT" name="update_album" finished-at="2024-01-22T05:23:00 PKT" duration-ms="13343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_album -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="checkContentType" finished-at="2024-01-22T05:23:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="checkResponseTime" finished-at="2024-01-22T05:23:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="checkResposeBody" finished-at="2024-01-22T05:23:00 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="checkStatusCode" finished-at="2024-01-22T05:23:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="checkserverType" finished-at="2024-01-22T05:23:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.ALBUM_update_album@4b741d6d]" started-at="2024-01-22T05:23:00 PKT" name="tearDown" finished-at="2024-01-22T05:23:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.ALBUM_update_album -->
+      <class name="com.medelz.testCases.HOME_landing_page_api_v2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:22 PKT" name="setup" finished-at="2024-01-22T05:20:22 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="landingpage_v2()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:22 PKT" name="landingpage_v2" finished-at="2024-01-22T05:20:36 PKT" duration-ms="13552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingpage_v2 -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="checkContentType" finished-at="2024-01-22T05:20:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="checkResponseTime" finished-at="2024-01-22T05:20:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="checkResposeBody" finished-at="2024-01-22T05:20:36 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="checkStatusCode" finished-at="2024-01-22T05:20:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="checkserverType" finished-at="2024-01-22T05:20:36 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_landing_page_api_v2@6e6f2380]" started-at="2024-01-22T05:20:36 PKT" name="tearDown" finished-at="2024-01-22T05:20:36 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_landing_page_api_v2 -->
+      <class name="com.medelz.testCases.HOME_photography_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:08 PKT" name="setup" finished-at="2024-01-22T05:20:08 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="photographypage()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:08 PKT" name="photographypage" finished-at="2024-01-22T05:20:22 PKT" duration-ms="13788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- photographypage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="checkContentType" finished-at="2024-01-22T05:20:22 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="checkResponseTime" finished-at="2024-01-22T05:20:22 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="checkResposeBody" finished-at="2024-01-22T05:20:22 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="checkStatusCode" finished-at="2024-01-22T05:20:22 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="checkserverType" finished-at="2024-01-22T05:20:22 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_photography_page@6892b3b6]" started-at="2024-01-22T05:20:22 PKT" name="tearDown" finished-at="2024-01-22T05:20:22 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_photography_page -->
+      <class name="com.medelz.testCases.HOME_music_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:00 PKT" name="setup" finished-at="2024-01-22T05:19:00 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="musicpage()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:00 PKT" name="musicpage" finished-at="2024-01-22T05:19:13 PKT" duration-ms="13771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- musicpage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:13 PKT" name="checkContentType" finished-at="2024-01-22T05:19:13 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:14 PKT" name="checkResponseTime" finished-at="2024-01-22T05:19:14 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:14 PKT" name="checkResposeBody" finished-at="2024-01-22T05:19:14 PKT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:14 PKT" name="checkStatusCode" finished-at="2024-01-22T05:19:14 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:14 PKT" name="checkserverType" finished-at="2024-01-22T05:19:14 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_music_page@1ed4ae0f]" started-at="2024-01-22T05:19:14 PKT" name="tearDown" finished-at="2024-01-22T05:19:14 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_music_page -->
+      <class name="com.medelz.testCases.HOME_dance_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:14 PKT" name="setup" finished-at="2024-01-22T05:19:14 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="dancepage()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:14 PKT" name="dancepage" finished-at="2024-01-22T05:19:27 PKT" duration-ms="13656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dancepage -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="checkContentType" finished-at="2024-01-22T05:19:27 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="checkResponseTime" finished-at="2024-01-22T05:19:27 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="checkResposeBody" finished-at="2024-01-22T05:19:27 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="checkStatusCode" finished-at="2024-01-22T05:19:27 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="checkserverType" finished-at="2024-01-22T05:19:27 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_dance_page@54c5a2ff]" started-at="2024-01-22T05:19:27 PKT" name="tearDown" finished-at="2024-01-22T05:19:27 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_dance_page -->
+      <class name="com.medelz.testCases.USERDETAILS_public_user_details">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:03 PKT" name="setup" finished-at="2024-01-22T05:27:03 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="public_user_details()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:03 PKT" name="public_user_details" finished-at="2024-01-22T05:27:16 PKT" duration-ms="12869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- public_user_details -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="checkContentType" finished-at="2024-01-22T05:27:16 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="checkResponseTime" finished-at="2024-01-22T05:27:16 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="checkResposeBody" finished-at="2024-01-22T05:27:16 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="checkStatusCode" finished-at="2024-01-22T05:27:16 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="checkserverType" finished-at="2024-01-22T05:27:16 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_public_user_details@543295b0]" started-at="2024-01-22T05:27:16 PKT" name="tearDown" finished-at="2024-01-22T05:27:16 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_public_user_details -->
+      <class name="com.medelz.testCases.PLAYLIST_get_playlist_song">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:20:49 PKT" name="setup" finished-at="2024-01-22T05:20:49 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="get_playlist_song()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:20:49 PKT" name="get_playlist_song" finished-at="2024-01-22T05:21:02 PKT" duration-ms="13180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_playlist_song -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="checkContentType" finished-at="2024-01-22T05:21:02 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="checkResponseTime" finished-at="2024-01-22T05:21:02 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="checkResposeBody" finished-at="2024-01-22T05:21:02 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="checkStatusCode" finished-at="2024-01-22T05:21:02 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="checkserverType" finished-at="2024-01-22T05:21:02 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.PLAYLIST_get_playlist_song@2e8c1c9b]" started-at="2024-01-22T05:21:02 PKT" name="tearDown" finished-at="2024-01-22T05:21:02 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.PLAYLIST_get_playlist_song -->
+      <class name="com.medelz.testCases.HOME_trending_categories_content">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:18:46 PKT" name="setup" finished-at="2024-01-22T05:18:46 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:18:46 PKT" name="getAllEmployees" finished-at="2024-01-22T05:19:00 PKT" duration-ms="13470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="checkContentType" finished-at="2024-01-22T05:19:00 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="checkResponseTime" finished-at="2024-01-22T05:19:00 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="checkResposeBody" finished-at="2024-01-22T05:19:00 PKT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="checkStatusCode" finished-at="2024-01-22T05:19:00 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="checkserverType" finished-at="2024-01-22T05:19:00 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_trending_categories_content@7526515b]" started-at="2024-01-22T05:19:00 PKT" name="tearDown" finished-at="2024-01-22T05:19:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.HOME_trending_categories_content -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:24:54 PKT" name="setup" finished-at="2024-01-22T05:24:54 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="add_content_to_favourite_list()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:24:54 PKT" name="add_content_to_favourite_list" finished-at="2024-01-22T05:25:07 PKT" duration-ms="12886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_content_to_favourite_list -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="checkContentType" finished-at="2024-01-22T05:25:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="checkResponseTime" finished-at="2024-01-22T05:25:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="checkResposeBody" finished-at="2024-01-22T05:25:07 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="checkStatusCode" finished-at="2024-01-22T05:25:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="checkserverType" finished-at="2024-01-22T05:25:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list@74ea2410]" started-at="2024-01-22T05:25:07 PKT" name="tearDown" finished-at="2024-01-22T05:25:07 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_get_comment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:41 PKT" name="setup" finished-at="2024-01-22T05:24:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="get_comment()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:41 PKT" name="get_comment" finished-at="2024-01-22T05:24:54 PKT" duration-ms="12438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_comment -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="checkContentType" finished-at="2024-01-22T05:24:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="checkResponseTime" finished-at="2024-01-22T05:24:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="checkResposeBody" finished-at="2024-01-22T05:24:54 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="checkStatusCode" finished-at="2024-01-22T05:24:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="checkserverType" finished-at="2024-01-22T05:24:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_get_comment@25ce9dc4]" started-at="2024-01-22T05:24:54 PKT" name="tearDown" finished-at="2024-01-22T05:24:54 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_get_comment -->
       <class name="com.medelz.testCases.AUTH_user_login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:27 PKT" name="setup" finished-at="2024-01-16T10:59:27 PKT" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:17:58 PKT" name="setup" finished-at="2024-01-22T05:17:58 PKT" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:27 PKT" name="login" finished-at="2024-01-16T10:59:47 PKT" duration-ms="20133" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:17:58 PKT" name="login" finished-at="2024-01-22T05:18:19 PKT" duration-ms="20463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:47 PKT" name="checkContentType" finished-at="2024-01-16T10:59:47 PKT" duration-ms="7" status="PASS">
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:18:19 PKT" name="checkContentType" finished-at="2024-01-22T05:18:19 PKT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:47 PKT" name="checkResposeBody" finished-at="2024-01-16T10:59:47 PKT" duration-ms="13" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:18:19 PKT" name="checkResposeBody" finished-at="2024-01-22T05:18:19 PKT" duration-ms="46" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at org.testng.Assert.assertEquals(Assert.java:1076)
+at com.medelz.testCases.AUTH_user_login.checkResposeBody(AUTH_user_login.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:47 PKT" name="checkStatusCode" finished-at="2024-01-16T10:59:47 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:18:19 PKT" name="checkStatusCode" finished-at="2024-01-22T05:18:19 PKT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:47 PKT" name="checkserverType" finished-at="2024-01-16T10:59:47 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:18:19 PKT" name="checkserverType" finished-at="2024-01-22T05:18:19 PKT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.AUTH_user_login@6fdbe764]" started-at="2024-01-16T10:59:47 PKT" name="tearDown" finished-at="2024-01-16T10:59:48 PKT" duration-ms="396" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.AUTH_user_login@3e27aa33]" started-at="2024-01-22T05:18:19 PKT" name="tearDown" finished-at="2024-01-22T05:18:19 PKT" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.medelz.testCases.AUTH_user_login -->
-      <class name="com.medelz.testCases.FORGOTTENPASSWORD_update_password">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:01:57 PKT" name="setup" finished-at="2024-01-16T11:01:57 PKT" duration-ms="6" status="PASS">
+      <class name="com.medelz.testCases.USERDETAILS_change_entity_image">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:29 PKT" name="setup" finished-at="2024-01-22T05:27:29 PKT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="update_password()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:01:57 PKT" name="update_password" finished-at="2024-01-16T11:02:13 PKT" duration-ms="16772" status="PASS">
+        <test-method is-config="true" signature="change_entity_image()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:29 PKT" name="change_entity_image" finished-at="2024-01-22T05:27:41 PKT" duration-ms="12413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- update_password -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:13 PKT" name="checkContentType" finished-at="2024-01-16T11:02:13 PKT" duration-ms="3" status="PASS">
+        </test-method> <!-- change_entity_image -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="checkContentType" finished-at="2024-01-22T05:27:41 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:13 PKT" name="checkResponseTime" finished-at="2024-01-16T11:02:14 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="checkResponseTime" finished-at="2024-01-22T05:27:41 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:14 PKT" name="checkResposeBody" finished-at="2024-01-16T11:02:14 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="checkResposeBody" finished-at="2024-01-22T05:27:41 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:14 PKT" name="checkStatusCode" finished-at="2024-01-16T11:02:14 PKT" duration-ms="12" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="checkStatusCode" finished-at="2024-01-22T05:27:41 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:14 PKT" name="checkserverType" finished-at="2024-01-16T11:02:14 PKT" duration-ms="4" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="checkserverType" finished-at="2024-01-22T05:27:41 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_update_password@4686afc2]" started-at="2024-01-16T11:02:14 PKT" name="tearDown" finished-at="2024-01-16T11:02:14 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.USERDETAILS_change_entity_image@117159c0]" started-at="2024-01-22T05:27:41 PKT" name="tearDown" finished-at="2024-01-22T05:27:41 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.FORGOTTENPASSWORD_update_password -->
-      <class name="com.medelz.testCases.UPDATEEMAIL_verify__old_email">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T10:59:48 PKT" name="setup" finished-at="2024-01-16T10:59:48 PKT" duration-ms="4" status="PASS">
+      </class> <!-- com.medelz.testCases.USERDETAILS_change_entity_image -->
+      <class name="com.medelz.testCases.LOCATIONS_get_countries">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:20 PKT" name="setup" finished-at="2024-01-22T05:22:20 PKT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="verify__old_email()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T10:59:48 PKT" name="verify__old_email" finished-at="2024-01-16T11:00:02 PKT" duration-ms="14766" status="PASS">
+        <test-method is-config="true" signature="get_playlist_song()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:20 PKT" name="get_playlist_song" finished-at="2024-01-22T05:22:33 PKT" duration-ms="12800" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify__old_email -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="checkContentType" finished-at="2024-01-16T11:00:02 PKT" duration-ms="2" status="PASS">
+        </test-method> <!-- get_playlist_song -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="checkContentType" finished-at="2024-01-22T05:22:33 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="checkResponseTime" finished-at="2024-01-16T11:00:02 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="checkResponseTime" finished-at="2024-01-22T05:22:33 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="checkResposeBody" finished-at="2024-01-16T11:00:02 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="checkResposeBody" finished-at="2024-01-22T05:22:33 PKT" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="checkStatusCode" finished-at="2024-01-16T11:00:02 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="checkStatusCode" finished-at="2024-01-22T05:22:33 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="checkserverType" finished-at="2024-01-16T11:00:02 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="checkserverType" finished-at="2024-01-22T05:22:33 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify__old_email@537f60bf]" started-at="2024-01-16T11:00:02 PKT" name="tearDown" finished-at="2024-01-16T11:00:02 PKT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.LOCATIONS_get_countries@7d0b7e3c]" started-at="2024-01-22T05:22:33 PKT" name="tearDown" finished-at="2024-01-22T05:22:33 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.UPDATEEMAIL_verify__old_email -->
-      <class name="com.medelz.testCases.UPDATEEMAIL_verify_email">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:00:45 PKT" name="setup" finished-at="2024-01-16T11:00:45 PKT" duration-ms="3" status="PASS">
+      </class> <!-- com.medelz.testCases.LOCATIONS_get_countries -->
+      <class name="com.medelz.testCases.HOME_upload_file">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:19 PKT" name="setup" finished-at="2024-01-22T05:18:19 PKT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="verify_email()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:00:45 PKT" name="verify_email" finished-at="2024-01-16T11:01:11 PKT" duration-ms="26832" status="PASS">
+        <test-method is-config="true" signature="upload_file()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:19 PKT" name="upload_file" finished-at="2024-01-22T05:18:33 PKT" duration-ms="13816" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_email -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="checkContentType" finished-at="2024-01-16T11:01:11 PKT" duration-ms="3" status="PASS">
+        </test-method> <!-- upload_file -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="checkContentType" finished-at="2024-01-22T05:18:33 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="checkResponseTime" finished-at="2024-01-16T11:01:11 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="checkResponseTime" finished-at="2024-01-22T05:18:33 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="checkResposeBody" finished-at="2024-01-16T11:01:11 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="checkResposeBody" finished-at="2024-01-22T05:18:33 PKT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="checkStatusCode" finished-at="2024-01-16T11:01:11 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="checkStatusCode" finished-at="2024-01-22T05:18:33 PKT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="checkserverType" finished-at="2024-01-16T11:01:11 PKT" duration-ms="4" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="checkserverType" finished-at="2024-01-22T05:18:33 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_email@65c7a252]" started-at="2024-01-16T11:01:11 PKT" name="tearDown" finished-at="2024-01-16T11:01:11 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.HOME_upload_file@f78a47e]" started-at="2024-01-22T05:18:33 PKT" name="tearDown" finished-at="2024-01-22T05:18:33 PKT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.UPDATEEMAIL_verify_email -->
-      <class name="com.medelz.testCases.UPDATEEMAIL_verify_otp">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:02 PKT" name="setup" finished-at="2024-01-16T11:00:02 PKT" duration-ms="3" status="PASS">
+      </class> <!-- com.medelz.testCases.HOME_upload_file -->
+      <class name="com.medelz.testCases.SINGLECONTENT2_edit_single_content">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:32 PKT" name="setup" finished-at="2024-01-22T05:25:32 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="verify_otp()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:02 PKT" name="verify_otp" finished-at="2024-01-16T11:00:31 PKT" duration-ms="28516" status="PASS">
+        <test-method is-config="true" signature="edit_single_content()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:32 PKT" name="edit_single_content" finished-at="2024-01-22T05:25:45 PKT" duration-ms="13079" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_otp -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="checkContentType" finished-at="2024-01-16T11:00:31 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="checkResponseTime" finished-at="2024-01-16T11:00:31 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="checkResposeBody" finished-at="2024-01-16T11:00:31 PKT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="checkStatusCode" finished-at="2024-01-16T11:00:31 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="checkserverType" finished-at="2024-01-16T11:00:31 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.UPDATEEMAIL_verify_otp@5677323c]" started-at="2024-01-16T11:00:31 PKT" name="tearDown" finished-at="2024-01-16T11:00:31 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.UPDATEEMAIL_verify_otp -->
-      <class name="com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:11 PKT" name="setup" finished-at="2024-01-16T11:01:11 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="password_reset_email()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:11 PKT" name="password_reset_email" finished-at="2024-01-16T11:01:25 PKT" duration-ms="13505" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password_reset_email -->
-        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="checkContentType" finished-at="2024-01-16T11:01:25 PKT" duration-ms="3" status="PASS">
+        </test-method> <!-- edit_single_content -->
+        <test-method signature="checkContentType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="checkContentType" finished-at="2024-01-22T05:25:45 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="checkResponseTime" finished-at="2024-01-16T11:01:25 PKT" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="checkResponseTime" finished-at="2024-01-22T05:25:45 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="checkResposeBody" finished-at="2024-01-16T11:01:25 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkResposeBody()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="checkResposeBody" finished-at="2024-01-22T05:25:45 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="checkStatusCode" finished-at="2024-01-16T11:01:25 PKT" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="checkStatusCode" finished-at="2024-01-22T05:25:45 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="checkserverType" finished-at="2024-01-16T11:01:25 PKT" duration-ms="4" status="PASS">
+        <test-method signature="checkserverType()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="checkserverType" finished-at="2024-01-22T05:25:45 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkserverType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email@4d154ccd]" started-at="2024-01-16T11:01:25 PKT" name="tearDown" finished-at="2024-01-16T11:01:25 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medelz.testCases.SINGLECONTENT2_edit_single_content@27406a17]" started-at="2024-01-22T05:25:45 PKT" name="tearDown" finished-at="2024-01-22T05:25:45 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.medelz.testCases.FORGOTTENPASSWORD_password_reset_email -->
+      </class> <!-- com.medelz.testCases.SINGLECONTENT2_edit_single_content -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -6,96 +6,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.medelz.testCases.SINGLECONTENT2_edit_single_content">
+      <class name="com.medelz.testCases.USERDETAILS_list_of_followed_users">
         <methods>
           <include name="checkResposeBody"/>
           <include name="tearDown"/>
-          <include name="edit_single_content"/>
+          <include name="list_of_followed_users"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.medelz.testCases.SINGLECONTENT2_edit_single_content -->
-      <class name="com.medelz.testCases.PLAYLIST_update_playlist">
-        <methods>
-          <include name="checkResposeBody"/>
-          <include name="update_playlist"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.PLAYLIST_update_playlist -->
-      <class name="com.medelz.testCases.SINGLECONTENT2_add_feedback">
-        <methods>
-          <include name="add_feedback"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="checkResposeBody"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_feedback -->
-      <class name="com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request">
-        <methods>
-          <include name="checkStatusCode"/>
-          <include name="tearDown"/>
-          <include name="checkResposeBody"/>
-          <include name="otp_confirmation_request"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.FORGOTTENPASSWORD_otp_confirmation_request -->
-      <class name="com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2">
+      </class> <!-- com.medelz.testCases.USERDETAILS_list_of_followed_users -->
+      <class name="com.medelz.testCases.AUTH_user_login">
         <methods>
           <include name="tearDown"/>
           <include name="checkResposeBody"/>
-          <include name="add_content_to_favourite_list"/>
+          <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list2 -->
-      <class name="com.medelz.testCases.ALBUM_update_album">
-        <methods>
-          <include name="checkResposeBody"/>
-          <include name="setup"/>
-          <include name="update_album"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.ALBUM_update_album -->
-      <class name="com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list">
-        <methods>
-          <include name="checkResposeBody"/>
-          <include name="tearDown"/>
-          <include name="add_content_to_favourite_list"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.SINGLECONTENT2_add_content_to_favourite_list -->
-      <class name="com.medelz.testCases.FORGOTTENPASSWORD_update_password">
-        <methods>
-          <include name="checkStatusCode"/>
-          <include name="update_password"/>
-          <include name="checkResposeBody"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.FORGOTTENPASSWORD_update_password -->
-      <class name="com.medelz.testCases.AUTH_user_registeration">
-        <methods>
-          <include name="tearDown"/>
-          <include name="checkResposeBody"/>
-          <include name="user_registeration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.AUTH_user_registeration -->
-      <class name="com.medelz.testCases.SINGLECONTENT2_update_comment">
-        <methods>
-          <include name="update_comment"/>
-          <include name="checkResposeBody"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.SINGLECONTENT2_update_comment -->
-      <class name="com.medelz.testCases.PLAYLIST_delete_playlist">
-        <methods>
-          <include name="tearDown"/>
-          <include name="delete_playlist"/>
-          <include name="setup"/>
-          <include name="checkResposeBody"/>
-        </methods>
-      </class> <!-- com.medelz.testCases.PLAYLIST_delete_playlist -->
+      </class> <!-- com.medelz.testCases.AUTH_user_login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
