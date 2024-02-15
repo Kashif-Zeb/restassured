@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
+import java.time.LocalDateTime;
 public class Listeners extends TestListenerAdapter
 {
 	
@@ -19,7 +19,8 @@ public class Listeners extends TestListenerAdapter
 	
 	public void onStart(ITestContext testContext)
 	{
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/Reports/medelzreports.html");//specify location of the report
+		LocalDateTime currentDateTime = LocalDateTime.now();
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/Reports/medelzreports"+currentDateTime+".html");//specify location of the report
 				
 		htmlReporter.config().setDocumentTitle("Automation Report"); // Tile of report
 		htmlReporter.config().setReportName("Rest API Testing Report"); // name of the report

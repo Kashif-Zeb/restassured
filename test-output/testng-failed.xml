@@ -6,22 +6,35 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.medelz.testCases.USERDETAILS_list_of_followed_users">
+      <class name="com.medelz.testCases.USERDETAILS_all_artist_queried">
         <methods>
+          <include name="all_artist_queried"/>
           <include name="checkResposeBody"/>
           <include name="tearDown"/>
-          <include name="list_of_followed_users"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.medelz.testCases.USERDETAILS_list_of_followed_users -->
-      <class name="com.medelz.testCases.AUTH_user_login">
+      </class> <!-- com.medelz.testCases.USERDETAILS_all_artist_queried -->
+      <class name="com.medelz.testCases.USERDETAILS_update_password">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="checkResposeBody"/>
+          <include name="tearDown"/>
+          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
+          <include name="update_password"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.medelz.testCases.USERDETAILS_update_password -->
+      <class name="com.medelz.testCases.USERDETAILS_followed_user">
         <methods>
           <include name="tearDown"/>
-          <include name="checkResposeBody"/>
-          <include name="login"/>
+          <include name="followed_user"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
+          <include name="checkContentType"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.medelz.testCases.AUTH_user_login -->
+      </class> <!-- com.medelz.testCases.USERDETAILS_followed_user -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

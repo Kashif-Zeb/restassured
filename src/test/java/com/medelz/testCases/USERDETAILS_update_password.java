@@ -37,7 +37,7 @@ public class USERDETAILS_update_password extends TestBase{
 //	requestParams.put("old_password", "Envy15gold@"); // Cast
 //	requestParams.put("new_password","Envy15gold@" );
 	requestParams.put("old_password",password); // Cast
-	requestParams.put("new_password",password);
+	requestParams.put("new_password",password+1);
 
 
 	httpRequest.header("Accept", "application/json");

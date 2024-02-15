@@ -31,7 +31,7 @@ public class HOME_landing_page extends TestBase{
 	httpRequest.header("Authorization", "Basic bWVkZWx6Ok1lZGVsekBkZXZAMTk3Ng==");
 	httpRequest.header("Content-Type", "application/json");
 	httpRequest.header("Authorization-Token", gettoken);
-	httpRequest.header("Authorization-Token", "Bearer Basic bWVkZWx6Ok1lZGVsekBkZXZAMTk3Ng==");
+//	httpRequest.header("Authorization-Token", "Bearer Basic bWVkZWx6Ok1lZGVsekBkZXZAMTk3Ng==");
 	response = httpRequest.request(Method.GET,"/v1/landing_page_api");
 	
 	Thread.sleep(5);

@@ -75,7 +75,7 @@ public class USERDETAILS_all_artist_queried extends TestBase{
 		String responseBody = response.getBody().asString();
 		System.out.println("response is ;"+responseBody);
 		logger.info("Response Body==>"+responseBody);
-		Assert.assertEquals(responseBody.contains("Artists are listed!."), true);
+		Assert.assertEquals(responseBody.contains("users_data"), true);
 		Assert.assertTrue(responseBody!=null);
 		
 	}
